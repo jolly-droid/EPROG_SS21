@@ -10,7 +10,7 @@ static void calculate (int x, int y){
 }
 
 int main (void){
-    int x, y;
+    int x = 0, y = 0;
     printf( "please insert x of rect to calculate \n");
     scanf("%d", &x);
     printf( "please insert y of rect to calculate \n");
