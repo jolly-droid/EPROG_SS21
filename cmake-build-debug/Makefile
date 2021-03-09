@@ -197,6 +197,33 @@ series00/rechteck.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series00/rechteck.c.s
 .PHONY : series00/rechteck.c.s
 
+series01/kreis.o: series01/kreis.c.o
+
+.PHONY : series01/kreis.o
+
+# target to build an object file
+series01/kreis.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/kreis.c.o
+.PHONY : series01/kreis.c.o
+
+series01/kreis.i: series01/kreis.c.i
+
+.PHONY : series01/kreis.i
+
+# target to preprocess a source file
+series01/kreis.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/kreis.c.i
+.PHONY : series01/kreis.c.i
+
+series01/kreis.s: series01/kreis.c.s
+
+.PHONY : series01/kreis.s
+
+# target to generate assembly for a file
+series01/kreis.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/kreis.c.s
+.PHONY : series01/kreis.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +239,9 @@ help:
 	@echo "... series00/rechteck.o"
 	@echo "... series00/rechteck.i"
 	@echo "... series00/rechteck.s"
+	@echo "... series01/kreis.o"
+	@echo "... series01/kreis.i"
+	@echo "... series01/kreis.s"
 .PHONY : help
 
 

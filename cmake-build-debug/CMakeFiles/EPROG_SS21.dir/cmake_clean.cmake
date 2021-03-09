@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/EPROG_SS21.dir/series00/helloworld.c.o"
   "CMakeFiles/EPROG_SS21.dir/series00/rechteck.c.o"
+  "CMakeFiles/EPROG_SS21.dir/series01/kreis.c.o"
   "EPROG_SS21"
   "EPROG_SS21.pdb"
 )

@@ -9,7 +9,7 @@ static void calculate (int x, int y){
 
 }
 
-int main (void){
+int mainR (void){
     int x = 0, y = 0;
     printf( "please insert x of rect to calculate \n");
     scanf("%d", &x);

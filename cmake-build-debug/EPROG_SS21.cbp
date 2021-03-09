@@ -82,6 +82,9 @@
 		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series00/rechteck.c">
 			<Option target="EPROG_SS21"/>
 		</Unit>
+		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series01/kreis.c">
+			<Option target="EPROG_SS21"/>
+		</Unit>
 		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

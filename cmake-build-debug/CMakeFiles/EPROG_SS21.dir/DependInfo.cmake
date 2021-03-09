@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/julia/CLionProjects/EPROG_SS21/series00/helloworld.c" "/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles/EPROG_SS21.dir/series00/helloworld.c.o"
   "/home/julia/CLionProjects/EPROG_SS21/series00/rechteck.c" "/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles/EPROG_SS21.dir/series00/rechteck.c.o"
+  "/home/julia/CLionProjects/EPROG_SS21/series01/kreis.c" "/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles/EPROG_SS21.dir/series01/kreis.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
