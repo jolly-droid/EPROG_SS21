@@ -143,6 +143,33 @@ EPROG_SS21/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/build
 .PHONY : EPROG_SS21/fast
 
+series00/gewinn.o: series00/gewinn.c.o
+
+.PHONY : series00/gewinn.o
+
+# target to build an object file
+series00/gewinn.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series00/gewinn.c.o
+.PHONY : series00/gewinn.c.o
+
+series00/gewinn.i: series00/gewinn.c.i
+
+.PHONY : series00/gewinn.i
+
+# target to preprocess a source file
+series00/gewinn.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series00/gewinn.c.i
+.PHONY : series00/gewinn.c.i
+
+series00/gewinn.s: series00/gewinn.c.s
+
+.PHONY : series00/gewinn.s
+
+# target to generate assembly for a file
+series00/gewinn.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series00/gewinn.c.s
+.PHONY : series00/gewinn.c.s
+
 series00/helloworld.o: series00/helloworld.c.o
 
 .PHONY : series00/helloworld.o
@@ -233,6 +260,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... EPROG_SS21"
+	@echo "... series00/gewinn.o"
+	@echo "... series00/gewinn.i"
+	@echo "... series00/gewinn.s"
 	@echo "... series00/helloworld.o"
 	@echo "... series00/helloworld.i"
 	@echo "... series00/helloworld.s"
