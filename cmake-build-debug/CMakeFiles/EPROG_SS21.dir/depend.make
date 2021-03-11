@@ -7,5 +7,19 @@ CMakeFiles/EPROG_SS21.dir/series00/helloworld.c.o: ../series00/helloworld.c
 
 CMakeFiles/EPROG_SS21.dir/series00/rechteck.c.o: ../series00/rechteck.c
 
+CMakeFiles/EPROG_SS21.dir/series01/bsp7.c.o: ../series01/bsp7.c
+
+CMakeFiles/EPROG_SS21.dir/series01/floor.c.o: ../series01/floor.c
+
+CMakeFiles/EPROG_SS21.dir/series01/handy.c.o: ../series01/handy.c
+
 CMakeFiles/EPROG_SS21.dir/series01/kreis.c.o: ../series01/kreis.c
+
+CMakeFiles/EPROG_SS21.dir/series01/member.c.o: ../series01/member.c
+
+CMakeFiles/EPROG_SS21.dir/series01/polyeval.c.o: ../series01/polyeval.c
+
+CMakeFiles/EPROG_SS21.dir/series01/scalarproduct.c.o: ../series01/scalarproduct.c
+
+CMakeFiles/EPROG_SS21.dir/series01/trapezoid.c.o: ../series01/trapezoid.c
 

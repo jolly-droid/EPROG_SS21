@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 
-int main(int argc, char* argv[]){
+int Tmain(int argc, char* argv[]){
     double height, a, b;
     printf("Let's calculate the trapezoid: ");
 
