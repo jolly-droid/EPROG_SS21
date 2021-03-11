@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 
-int mainV(int argc, char* argv[]) {
+int maine(int argc, char* argv[]) {
     double n;
     printf("Let's calculate the sequence! ");
     printf("please insert n:");
