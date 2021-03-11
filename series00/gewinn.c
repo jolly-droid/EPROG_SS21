@@ -6,7 +6,7 @@ Sie den Source-Code unter gewinn.cin das Verzeichnisserie00. */
 
 #include <stdio.h>
 
-int main(int argc, char* argv[]){
+int mCain(int argc, char* argv[]){
     double money;
     int friends;
 

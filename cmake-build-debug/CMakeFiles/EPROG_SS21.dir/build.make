@@ -129,12 +129,110 @@ CMakeFiles/EPROG_SS21.dir/series00/gewinn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EPROG_SS21.dir/series00/gewinn.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/CLionProjects/EPROG_SS21/series00/gewinn.c -o CMakeFiles/EPROG_SS21.dir/series00/gewinn.c.s
 
+CMakeFiles/EPROG_SS21.dir/series01/trapezoid.c.o: CMakeFiles/EPROG_SS21.dir/flags.make
+CMakeFiles/EPROG_SS21.dir/series01/trapezoid.c.o: ../series01/trapezoid.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/EPROG_SS21.dir/series01/trapezoid.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/EPROG_SS21.dir/series01/trapezoid.c.o   -c /home/julia/CLionProjects/EPROG_SS21/series01/trapezoid.c
+
+CMakeFiles/EPROG_SS21.dir/series01/trapezoid.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EPROG_SS21.dir/series01/trapezoid.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/julia/CLionProjects/EPROG_SS21/series01/trapezoid.c > CMakeFiles/EPROG_SS21.dir/series01/trapezoid.c.i
+
+CMakeFiles/EPROG_SS21.dir/series01/trapezoid.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EPROG_SS21.dir/series01/trapezoid.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/CLionProjects/EPROG_SS21/series01/trapezoid.c -o CMakeFiles/EPROG_SS21.dir/series01/trapezoid.c.s
+
+CMakeFiles/EPROG_SS21.dir/series01/polyeval.c.o: CMakeFiles/EPROG_SS21.dir/flags.make
+CMakeFiles/EPROG_SS21.dir/series01/polyeval.c.o: ../series01/polyeval.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/EPROG_SS21.dir/series01/polyeval.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/EPROG_SS21.dir/series01/polyeval.c.o   -c /home/julia/CLionProjects/EPROG_SS21/series01/polyeval.c
+
+CMakeFiles/EPROG_SS21.dir/series01/polyeval.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EPROG_SS21.dir/series01/polyeval.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/julia/CLionProjects/EPROG_SS21/series01/polyeval.c > CMakeFiles/EPROG_SS21.dir/series01/polyeval.c.i
+
+CMakeFiles/EPROG_SS21.dir/series01/polyeval.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EPROG_SS21.dir/series01/polyeval.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/CLionProjects/EPROG_SS21/series01/polyeval.c -o CMakeFiles/EPROG_SS21.dir/series01/polyeval.c.s
+
+CMakeFiles/EPROG_SS21.dir/series01/handy.c.o: CMakeFiles/EPROG_SS21.dir/flags.make
+CMakeFiles/EPROG_SS21.dir/series01/handy.c.o: ../series01/handy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/EPROG_SS21.dir/series01/handy.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/EPROG_SS21.dir/series01/handy.c.o   -c /home/julia/CLionProjects/EPROG_SS21/series01/handy.c
+
+CMakeFiles/EPROG_SS21.dir/series01/handy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EPROG_SS21.dir/series01/handy.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/julia/CLionProjects/EPROG_SS21/series01/handy.c > CMakeFiles/EPROG_SS21.dir/series01/handy.c.i
+
+CMakeFiles/EPROG_SS21.dir/series01/handy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EPROG_SS21.dir/series01/handy.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/CLionProjects/EPROG_SS21/series01/handy.c -o CMakeFiles/EPROG_SS21.dir/series01/handy.c.s
+
+CMakeFiles/EPROG_SS21.dir/series01/scalarproduct.c.o: CMakeFiles/EPROG_SS21.dir/flags.make
+CMakeFiles/EPROG_SS21.dir/series01/scalarproduct.c.o: ../series01/scalarproduct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/EPROG_SS21.dir/series01/scalarproduct.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/EPROG_SS21.dir/series01/scalarproduct.c.o   -c /home/julia/CLionProjects/EPROG_SS21/series01/scalarproduct.c
+
+CMakeFiles/EPROG_SS21.dir/series01/scalarproduct.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EPROG_SS21.dir/series01/scalarproduct.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/julia/CLionProjects/EPROG_SS21/series01/scalarproduct.c > CMakeFiles/EPROG_SS21.dir/series01/scalarproduct.c.i
+
+CMakeFiles/EPROG_SS21.dir/series01/scalarproduct.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EPROG_SS21.dir/series01/scalarproduct.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/CLionProjects/EPROG_SS21/series01/scalarproduct.c -o CMakeFiles/EPROG_SS21.dir/series01/scalarproduct.c.s
+
+CMakeFiles/EPROG_SS21.dir/series01/member.c.o: CMakeFiles/EPROG_SS21.dir/flags.make
+CMakeFiles/EPROG_SS21.dir/series01/member.c.o: ../series01/member.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/EPROG_SS21.dir/series01/member.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/EPROG_SS21.dir/series01/member.c.o   -c /home/julia/CLionProjects/EPROG_SS21/series01/member.c
+
+CMakeFiles/EPROG_SS21.dir/series01/member.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EPROG_SS21.dir/series01/member.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/julia/CLionProjects/EPROG_SS21/series01/member.c > CMakeFiles/EPROG_SS21.dir/series01/member.c.i
+
+CMakeFiles/EPROG_SS21.dir/series01/member.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EPROG_SS21.dir/series01/member.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/CLionProjects/EPROG_SS21/series01/member.c -o CMakeFiles/EPROG_SS21.dir/series01/member.c.s
+
+CMakeFiles/EPROG_SS21.dir/series01/floor.c.o: CMakeFiles/EPROG_SS21.dir/flags.make
+CMakeFiles/EPROG_SS21.dir/series01/floor.c.o: ../series01/floor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/EPROG_SS21.dir/series01/floor.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/EPROG_SS21.dir/series01/floor.c.o   -c /home/julia/CLionProjects/EPROG_SS21/series01/floor.c
+
+CMakeFiles/EPROG_SS21.dir/series01/floor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EPROG_SS21.dir/series01/floor.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/julia/CLionProjects/EPROG_SS21/series01/floor.c > CMakeFiles/EPROG_SS21.dir/series01/floor.c.i
+
+CMakeFiles/EPROG_SS21.dir/series01/floor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EPROG_SS21.dir/series01/floor.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/CLionProjects/EPROG_SS21/series01/floor.c -o CMakeFiles/EPROG_SS21.dir/series01/floor.c.s
+
+CMakeFiles/EPROG_SS21.dir/series01/bsp7.c.o: CMakeFiles/EPROG_SS21.dir/flags.make
+CMakeFiles/EPROG_SS21.dir/series01/bsp7.c.o: ../series01/bsp7.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/EPROG_SS21.dir/series01/bsp7.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/EPROG_SS21.dir/series01/bsp7.c.o   -c /home/julia/CLionProjects/EPROG_SS21/series01/bsp7.c
+
+CMakeFiles/EPROG_SS21.dir/series01/bsp7.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EPROG_SS21.dir/series01/bsp7.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/julia/CLionProjects/EPROG_SS21/series01/bsp7.c > CMakeFiles/EPROG_SS21.dir/series01/bsp7.c.i
+
+CMakeFiles/EPROG_SS21.dir/series01/bsp7.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EPROG_SS21.dir/series01/bsp7.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/CLionProjects/EPROG_SS21/series01/bsp7.c -o CMakeFiles/EPROG_SS21.dir/series01/bsp7.c.s
+
 # Object files for target EPROG_SS21
 EPROG_SS21_OBJECTS = \
 "CMakeFiles/EPROG_SS21.dir/series00/helloworld.c.o" \
 "CMakeFiles/EPROG_SS21.dir/series00/rechteck.c.o" \
 "CMakeFiles/EPROG_SS21.dir/series01/kreis.c.o" \
-"CMakeFiles/EPROG_SS21.dir/series00/gewinn.c.o"
+"CMakeFiles/EPROG_SS21.dir/series00/gewinn.c.o" \
+"CMakeFiles/EPROG_SS21.dir/series01/trapezoid.c.o" \
+"CMakeFiles/EPROG_SS21.dir/series01/polyeval.c.o" \
+"CMakeFiles/EPROG_SS21.dir/series01/handy.c.o" \
+"CMakeFiles/EPROG_SS21.dir/series01/scalarproduct.c.o" \
+"CMakeFiles/EPROG_SS21.dir/series01/member.c.o" \
+"CMakeFiles/EPROG_SS21.dir/series01/floor.c.o" \
+"CMakeFiles/EPROG_SS21.dir/series01/bsp7.c.o"
 
 # External object files for target EPROG_SS21
 EPROG_SS21_EXTERNAL_OBJECTS =
@@ -143,9 +241,16 @@ EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series00/helloworld.c.o
 EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series00/rechteck.c.o
 EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series01/kreis.c.o
 EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series00/gewinn.c.o
+EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series01/trapezoid.c.o
+EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series01/polyeval.c.o
+EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series01/handy.c.o
+EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series01/scalarproduct.c.o
+EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series01/member.c.o
+EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series01/floor.c.o
+EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series01/bsp7.c.o
 EPROG_SS21: CMakeFiles/EPROG_SS21.dir/build.make
 EPROG_SS21: CMakeFiles/EPROG_SS21.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable EPROG_SS21"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable EPROG_SS21"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EPROG_SS21.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

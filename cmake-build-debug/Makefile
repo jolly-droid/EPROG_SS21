@@ -224,6 +224,87 @@ series00/rechteck.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series00/rechteck.c.s
 .PHONY : series00/rechteck.c.s
 
+series01/bsp7.o: series01/bsp7.c.o
+
+.PHONY : series01/bsp7.o
+
+# target to build an object file
+series01/bsp7.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/bsp7.c.o
+.PHONY : series01/bsp7.c.o
+
+series01/bsp7.i: series01/bsp7.c.i
+
+.PHONY : series01/bsp7.i
+
+# target to preprocess a source file
+series01/bsp7.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/bsp7.c.i
+.PHONY : series01/bsp7.c.i
+
+series01/bsp7.s: series01/bsp7.c.s
+
+.PHONY : series01/bsp7.s
+
+# target to generate assembly for a file
+series01/bsp7.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/bsp7.c.s
+.PHONY : series01/bsp7.c.s
+
+series01/floor.o: series01/floor.c.o
+
+.PHONY : series01/floor.o
+
+# target to build an object file
+series01/floor.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/floor.c.o
+.PHONY : series01/floor.c.o
+
+series01/floor.i: series01/floor.c.i
+
+.PHONY : series01/floor.i
+
+# target to preprocess a source file
+series01/floor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/floor.c.i
+.PHONY : series01/floor.c.i
+
+series01/floor.s: series01/floor.c.s
+
+.PHONY : series01/floor.s
+
+# target to generate assembly for a file
+series01/floor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/floor.c.s
+.PHONY : series01/floor.c.s
+
+series01/handy.o: series01/handy.c.o
+
+.PHONY : series01/handy.o
+
+# target to build an object file
+series01/handy.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/handy.c.o
+.PHONY : series01/handy.c.o
+
+series01/handy.i: series01/handy.c.i
+
+.PHONY : series01/handy.i
+
+# target to preprocess a source file
+series01/handy.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/handy.c.i
+.PHONY : series01/handy.c.i
+
+series01/handy.s: series01/handy.c.s
+
+.PHONY : series01/handy.s
+
+# target to generate assembly for a file
+series01/handy.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/handy.c.s
+.PHONY : series01/handy.c.s
+
 series01/kreis.o: series01/kreis.c.o
 
 .PHONY : series01/kreis.o
@@ -251,6 +332,114 @@ series01/kreis.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/kreis.c.s
 .PHONY : series01/kreis.c.s
 
+series01/member.o: series01/member.c.o
+
+.PHONY : series01/member.o
+
+# target to build an object file
+series01/member.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/member.c.o
+.PHONY : series01/member.c.o
+
+series01/member.i: series01/member.c.i
+
+.PHONY : series01/member.i
+
+# target to preprocess a source file
+series01/member.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/member.c.i
+.PHONY : series01/member.c.i
+
+series01/member.s: series01/member.c.s
+
+.PHONY : series01/member.s
+
+# target to generate assembly for a file
+series01/member.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/member.c.s
+.PHONY : series01/member.c.s
+
+series01/polyeval.o: series01/polyeval.c.o
+
+.PHONY : series01/polyeval.o
+
+# target to build an object file
+series01/polyeval.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/polyeval.c.o
+.PHONY : series01/polyeval.c.o
+
+series01/polyeval.i: series01/polyeval.c.i
+
+.PHONY : series01/polyeval.i
+
+# target to preprocess a source file
+series01/polyeval.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/polyeval.c.i
+.PHONY : series01/polyeval.c.i
+
+series01/polyeval.s: series01/polyeval.c.s
+
+.PHONY : series01/polyeval.s
+
+# target to generate assembly for a file
+series01/polyeval.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/polyeval.c.s
+.PHONY : series01/polyeval.c.s
+
+series01/scalarproduct.o: series01/scalarproduct.c.o
+
+.PHONY : series01/scalarproduct.o
+
+# target to build an object file
+series01/scalarproduct.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/scalarproduct.c.o
+.PHONY : series01/scalarproduct.c.o
+
+series01/scalarproduct.i: series01/scalarproduct.c.i
+
+.PHONY : series01/scalarproduct.i
+
+# target to preprocess a source file
+series01/scalarproduct.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/scalarproduct.c.i
+.PHONY : series01/scalarproduct.c.i
+
+series01/scalarproduct.s: series01/scalarproduct.c.s
+
+.PHONY : series01/scalarproduct.s
+
+# target to generate assembly for a file
+series01/scalarproduct.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/scalarproduct.c.s
+.PHONY : series01/scalarproduct.c.s
+
+series01/trapezoid.o: series01/trapezoid.c.o
+
+.PHONY : series01/trapezoid.o
+
+# target to build an object file
+series01/trapezoid.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/trapezoid.c.o
+.PHONY : series01/trapezoid.c.o
+
+series01/trapezoid.i: series01/trapezoid.c.i
+
+.PHONY : series01/trapezoid.i
+
+# target to preprocess a source file
+series01/trapezoid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/trapezoid.c.i
+.PHONY : series01/trapezoid.c.i
+
+series01/trapezoid.s: series01/trapezoid.c.s
+
+.PHONY : series01/trapezoid.s
+
+# target to generate assembly for a file
+series01/trapezoid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/trapezoid.c.s
+.PHONY : series01/trapezoid.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -269,9 +458,30 @@ help:
 	@echo "... series00/rechteck.o"
 	@echo "... series00/rechteck.i"
 	@echo "... series00/rechteck.s"
+	@echo "... series01/bsp7.o"
+	@echo "... series01/bsp7.i"
+	@echo "... series01/bsp7.s"
+	@echo "... series01/floor.o"
+	@echo "... series01/floor.i"
+	@echo "... series01/floor.s"
+	@echo "... series01/handy.o"
+	@echo "... series01/handy.i"
+	@echo "... series01/handy.s"
 	@echo "... series01/kreis.o"
 	@echo "... series01/kreis.i"
 	@echo "... series01/kreis.s"
+	@echo "... series01/member.o"
+	@echo "... series01/member.i"
+	@echo "... series01/member.s"
+	@echo "... series01/polyeval.o"
+	@echo "... series01/polyeval.i"
+	@echo "... series01/polyeval.s"
+	@echo "... series01/scalarproduct.o"
+	@echo "... series01/scalarproduct.i"
+	@echo "... series01/scalarproduct.s"
+	@echo "... series01/trapezoid.o"
+	@echo "... series01/trapezoid.i"
+	@echo "... series01/trapezoid.s"
 .PHONY : help
 
 
