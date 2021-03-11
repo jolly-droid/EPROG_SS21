@@ -12,7 +12,7 @@ static double calcVal(double a, double b, double c, double x){
     return result;
 }
 
-int main(int argc, char* argv[]) {
+int mainV(int argc, char* argv[]) {
     double a, b, c, x;
     printf("Let's calculate the polynomial ");
 
