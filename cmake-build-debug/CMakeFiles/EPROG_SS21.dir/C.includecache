@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/julia/CLionProjects/EPROG_SS21/series00/gewinn.c
+/home/julia/CLionProjects/EPROG_SS21/series01/bsp7.c
+stdio.h
+-
+
+/home/julia/CLionProjects/EPROG_SS21/series01/floor.c
 stdio.h
 -
 

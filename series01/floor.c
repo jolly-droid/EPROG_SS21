@@ -8,7 +8,7 @@
 //does not work for negative numbers
 #include <stdio.h>
 
-int main(int argc, char* argv[]) {
+int mainv(int argc, char* argv[]) {
     double number;
 
     printf("please insert number:");
