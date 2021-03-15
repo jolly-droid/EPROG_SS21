@@ -12,9 +12,10 @@ static double calcVal(double a, double b, double c, double x, double y, double z
     return help1 + help2 + help3;
 }
 
-int mainEEE(int argc, char* argv[]) {
+int mainF(int argc, char* argv[]) {
     double a, b, c, x, y, z;
-    printf("Let's calculate the vectors ");
+   // printf("%s: Let's calculate the vectors! \n", argv[0]);
+    printf("Let's calculate the vectors! \n");
 
     printf("please insert a:");
     scanf("%lf", &a);

@@ -6,32 +6,33 @@
 
 #include <stdio.h>
 
-int Tmain(int argc, char* argv[]){
+int mainT(int argc, char* argv[]){
     double height, a, b;
-    printf("Let's calculate the trapezoid: ");
+    printf("Let's calculate the trapezoid! \n ");
 
     printf("please insert a:");
     scanf("%lf",&a);
-    if(a<= 0){
-        printf("No negative a possible! ");
+
+    if(a <= 0){
+        printf("No negative sides possible! ");
         return -1;
     }
     printf("please insert b:");
     scanf("%lf",&b);
-    if(height<= 0){
-        printf("No negative b possible! ");
+    if(b <= 0){
+        printf("No negative sides possible! ");
         return -1;
     }
 
     printf("please insert height:");
     scanf("%lf",&height);
-    if(height<= 0){
+    if(height <= 0){
         printf("No negative height possible! ");
         return -1;
     }
 
     //typecasting - always use the bigger one
-    double help= (a+b)/2;
+    double help = (a+b)/2;
     double area = help*height;
 
     printf("This is the area: %f", area);

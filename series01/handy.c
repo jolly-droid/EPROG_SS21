@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-int mainV(int argc, char* argv[]) {
+int mainF(int argc, char* argv[]) {
     double credit, b, c, x;
     printf("Let's calculate the phone price ");
 
@@ -16,11 +16,12 @@ int mainV(int argc, char* argv[]) {
 
    if(credit <= 0){
        printf("Please top up your phone");
+       return 0;
    }
 
-    double phonetime = credit / 0.27;
+    int phonetime = (int) (credit / 0.27);
 
-    printf("This is the speaking time: %f", phonetime);
+    printf("Estimated speaking time: %d minutes", phonetime);
 
 
     return 0;

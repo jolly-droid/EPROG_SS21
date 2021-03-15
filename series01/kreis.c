@@ -14,11 +14,15 @@ static int calculateArea(int rad){
 }
 
 
-int mainM (int argc, char* argv[] ){
+int mainK (int argc, char* argv[] ){
     int k;
     printf("what size do you want your circle to be? :");
     scanf("%d", &k);
-    int circ= calculateCircumference(k);
+    if ( k <= 0){
+        printf("negative numbers or zero are not possible!");
+        return -1;
+    }
+    int circ = calculateCircumference(k);
     int area = calculateArea(k);
 
     printf("The circumference is %d,\n the area is %d", circ, area);

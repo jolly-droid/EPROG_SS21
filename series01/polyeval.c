@@ -1,6 +1,6 @@
 /* 1.3
  * A  polynomial  of  second  order  can  be  represented  via  the  monomial  basis  asp(x)  =ax2+bx+c,
- * wherea, b, c∈R. Write a program, which reads the parametersa, b, c and a point x∈R from  the  keyboard,
+ * where a, b, c∈R. Write a program, which reads the parameters a, b, c and a point x∈R from  the  keyboard,
  * computes  the  function  value p(x),  and  prints  the  result  to  the  screen.  Save  yoursource code aspolyeval.cinto the directoryserie01.
  */
 
@@ -12,7 +12,7 @@ static double calcVal(double a, double b, double c, double x){
     return result;
 }
 
-int maihV(int argc, char* argv[]) {
+int mainf(int argc, char* argv[]) {
     double a, b, c, x;
     printf("Let's calculate the polynomial ");
 

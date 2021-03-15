@@ -14,8 +14,8 @@ int mainv(int argc, char* argv[]) {
     printf("please insert number:");
     scanf("%lf", &number);
 
-    if(number < 0 ||1==1){
-        printf("negative numbers not acceped:");
+    if(number < 0){
+        printf("negative numbers not acceped!");
         return -1;
     }else{
         double result = (int) number;
@@ -25,5 +25,5 @@ int mainv(int argc, char* argv[]) {
 
 }
 
-// wenn ich caste, schneide ich ur die zahl ab
-// man müsste die c interne floor funciton verwende oder ceal, oder mit .-1
+// wenn ich caste, schneide ich nur die zahl ab - bei -4.5 also auf 4 anstatt 5!!
+// man müsste die c interne floor funciton verwenden oder ceal, oder mit .-1
