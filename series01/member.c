@@ -6,12 +6,12 @@
 
 #include <stdio.h>
 
-int maine(int argc, char* argv[]) {
-    double n;
+int mainR(int argc, char* argv[]) {
+    int n = 0;
     printf("Let's calculate the member! ");
     printf("please insert n:");
     scanf("%lf", &n);
-    double value = 1/(n+2);
+    double value = 1./(n+2); // impliztes casting // 1./(n+2)
     printf("This is the value of an: %f", value);
 
     return 0;

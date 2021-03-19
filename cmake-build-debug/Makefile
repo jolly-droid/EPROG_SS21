@@ -59,10 +59,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/139/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/145/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/139/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/145/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /home/julia/CLionProjects/EPROG_SS21/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/139/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/145/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/139/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/145/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -440,6 +440,60 @@ series01/trapezoid.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series01/trapezoid.c.s
 .PHONY : series01/trapezoid.c.s
 
+series02/bilanz.o: series02/bilanz.c.o
+
+.PHONY : series02/bilanz.o
+
+# target to build an object file
+series02/bilanz.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/bilanz.c.o
+.PHONY : series02/bilanz.c.o
+
+series02/bilanz.i: series02/bilanz.c.i
+
+.PHONY : series02/bilanz.i
+
+# target to preprocess a source file
+series02/bilanz.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/bilanz.c.i
+.PHONY : series02/bilanz.c.i
+
+series02/bilanz.s: series02/bilanz.c.s
+
+.PHONY : series02/bilanz.s
+
+# target to generate assembly for a file
+series02/bilanz.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/bilanz.c.s
+.PHONY : series02/bilanz.c.s
+
+series02/triangle.o: series02/triangle.c.o
+
+.PHONY : series02/triangle.o
+
+# target to build an object file
+series02/triangle.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/triangle.c.o
+.PHONY : series02/triangle.c.o
+
+series02/triangle.i: series02/triangle.c.i
+
+.PHONY : series02/triangle.i
+
+# target to preprocess a source file
+series02/triangle.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/triangle.c.i
+.PHONY : series02/triangle.c.i
+
+series02/triangle.s: series02/triangle.c.s
+
+.PHONY : series02/triangle.s
+
+# target to generate assembly for a file
+series02/triangle.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/triangle.c.s
+.PHONY : series02/triangle.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -482,6 +536,12 @@ help:
 	@echo "... series01/trapezoid.o"
 	@echo "... series01/trapezoid.i"
 	@echo "... series01/trapezoid.s"
+	@echo "... series02/bilanz.o"
+	@echo "... series02/bilanz.i"
+	@echo "... series02/bilanz.s"
+	@echo "... series02/triangle.o"
+	@echo "... series02/triangle.i"
+	@echo "... series02/triangle.s"
 .PHONY : help
 
 

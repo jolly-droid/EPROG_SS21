@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-int mainF(int argc, char* argv[]) {
+int mainU(int argc, char* argv[]) {
     double credit, b, c, x;
     printf("Let's calculate the phone price ");
 

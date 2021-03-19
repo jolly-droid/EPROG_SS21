@@ -9,7 +9,7 @@
 #include <stdio.h>
 
 int mainv(int argc, char* argv[]) {
-    double number;
+    double number = 0;
 
     printf("please insert number:");
     scanf("%lf", &number);

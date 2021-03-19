@@ -11,7 +11,7 @@ which types do exist?
 
 int maiSn(){
     int x = 2;
-    int y = 5.4;
+    int y = 5.4; // type casting
     double z = 3.6;
 
     double erg1 = x/y + z; //implizit

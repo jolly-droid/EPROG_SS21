@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/EPROG_SS21.dir/series01/polyeval.c.o"
   "CMakeFiles/EPROG_SS21.dir/series01/scalarproduct.c.o"
   "CMakeFiles/EPROG_SS21.dir/series01/trapezoid.c.o"
+  "CMakeFiles/EPROG_SS21.dir/series02/bilanz.c.o"
+  "CMakeFiles/EPROG_SS21.dir/series02/triangle.c.o"
   "EPROG_SS21"
   "EPROG_SS21.pdb"
 )
