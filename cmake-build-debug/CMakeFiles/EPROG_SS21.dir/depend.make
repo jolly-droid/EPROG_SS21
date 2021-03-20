@@ -23,3 +23,7 @@ CMakeFiles/EPROG_SS21.dir/series01/scalarproduct.c.o: ../series01/scalarproduct.
 
 CMakeFiles/EPROG_SS21.dir/series01/trapezoid.c.o: ../series01/trapezoid.c
 
+CMakeFiles/EPROG_SS21.dir/series02/bilanz.c.o: ../series02/bilanz.c
+
+CMakeFiles/EPROG_SS21.dir/series02/triangle.c.o: ../series02/triangle.c
+

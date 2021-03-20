@@ -12,13 +12,13 @@ int entartet(double a,double b,double c);
 int unmogliches (double a, double b, double c);
 
 int main (int argc, char* argv[]) {
-    printf("what type of triangel do we have here?:\n");
+    printf("what type of triangel do we have here?\n");
     double a= 0, b= 0, c = 0;
     printf("Please insert a:");
     scanf("%lf",&a);
     printf("Please insert b:");
     scanf("%lf",&b);
-    printf("3Please insert c:");
+    printf("Please insert c:");
     scanf("%lf",&c);
     triType(a,b,c);
     return 0;

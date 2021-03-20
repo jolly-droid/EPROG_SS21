@@ -467,6 +467,33 @@ series02/bilanz.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/bilanz.c.s
 .PHONY : series02/bilanz.c.s
 
+series02/members.o: series02/members.c.o
+
+.PHONY : series02/members.o
+
+# target to build an object file
+series02/members.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/members.c.o
+.PHONY : series02/members.c.o
+
+series02/members.i: series02/members.c.i
+
+.PHONY : series02/members.i
+
+# target to preprocess a source file
+series02/members.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/members.c.i
+.PHONY : series02/members.c.i
+
+series02/members.s: series02/members.c.s
+
+.PHONY : series02/members.s
+
+# target to generate assembly for a file
+series02/members.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/members.c.s
+.PHONY : series02/members.c.s
+
 series02/triangle.o: series02/triangle.c.o
 
 .PHONY : series02/triangle.o
@@ -539,6 +566,9 @@ help:
 	@echo "... series02/bilanz.o"
 	@echo "... series02/bilanz.i"
 	@echo "... series02/bilanz.s"
+	@echo "... series02/members.o"
+	@echo "... series02/members.i"
+	@echo "... series02/members.s"
 	@echo "... series02/triangle.o"
 	@echo "... series02/triangle.i"
 	@echo "... series02/triangle.s"
