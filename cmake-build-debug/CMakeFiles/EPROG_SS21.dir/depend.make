@@ -25,5 +25,9 @@ CMakeFiles/EPROG_SS21.dir/series01/trapezoid.c.o: ../series01/trapezoid.c
 
 CMakeFiles/EPROG_SS21.dir/series02/bilanz.c.o: ../series02/bilanz.c
 
+CMakeFiles/EPROG_SS21.dir/series02/locate.c.o: ../series02/locate.c
+
+CMakeFiles/EPROG_SS21.dir/series02/members.c.o: ../series02/members.c
+
 CMakeFiles/EPROG_SS21.dir/series02/triangle.c.o: ../series02/triangle.c
 

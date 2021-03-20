@@ -112,6 +112,9 @@
 		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series02/bilanz.c">
 			<Option target="EPROG_SS21"/>
 		</Unit>
+		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series02/locate.c">
+			<Option target="EPROG_SS21"/>
+		</Unit>
 		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series02/members.c">
 			<Option target="EPROG_SS21"/>
 		</Unit>

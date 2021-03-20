@@ -11,7 +11,7 @@ int pythagoras ( double a, double b, double c);
 int entartet(double a,double b,double c);
 int unmogliches (double a, double b, double c);
 
-int main (int argc, char* argv[]) {
+int main0202 (int argc, char* argv[]) {
     printf("what type of triangel do we have here?\n");
     double a= 0, b= 0, c = 0;
     printf("Please insert a:");
