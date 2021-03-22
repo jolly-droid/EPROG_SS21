@@ -1,14 +1,17 @@
-/*Write a program that reads three edge lengthsa, b, c >0 from the keyboard
-and prints tothe screen the type of the resulting triangle: equilateral, isosceles, scalene, right-angled,
-one-dimensionaldegenerate, i.e., the sum of two edges equals the third one, or impossible, i.e.,
-the sum of two edges isstrictly smaller than the third one.
+/*Write a program that reads three edge lengths a, b, c >0 from the keyboard
+and prints to the screen the type of the resulting triangle: equilateral, isosceles, scalene, right-angled,
+one-dimensional degenerate, i.e., the sum of two edges equals the third one, or impossible, i.e.,
+the sum of two edges is strictly smaller than the third one.
 Note that several properties may be satisfied simultaneously.
-Saveyour source code astriangle.cinto the directoryserie02. */
+Save your source code as  triangle.c  into the directoyserie02. */
 
 #include <stdio.h>
 void triType(double a, double b, double c);
+//checks whether trinagle is right
 int pythagoras ( double a, double b, double c);
+//checks whether
 int entartet(double a,double b,double c);
+//checks whether triangle is a valid triangle
 int unmogliches (double a, double b, double c);
 
 int main0202 (int argc, char* argv[]) {
@@ -28,18 +31,18 @@ void triType( double a, double b, double c) { //xor??
     printf("Your triangle is: \n");
     if ( a<= 0 || b <= 0 || c <= 0) {
         printf("not a valid triangle!\n");}
-    if ( a == b && b == c){  // gleichseitiges dreieck a == b == c
+    if ( (a == b) && (b == c)){  // gleichseitiges dreieck a == b == c
         printf("equilateral\n");
     }
-    if ( (a== b) ^ (b==c) ^ (a==c)){ // gleichschenkeliges dreieck a== b || b== c || a==c
+    if ( (a == b) || (b==c) || (a==c)){ // gleichschenkeliges dreieck a== b || b== c || a==c
         printf("isosceles\n");
     }
-    if( (a!= b) ^(b != c) ^(c != a)){ //unregelmässig seiten alle ungleoch lang
+    if( (a!= b) ||(b != c) ||(c != a)){ //unregelmässig seiten alle ungleoch lang
         printf("scalene\n");
     }
     if (pythagoras(a,b,c) == 1){
         printf("right angeled\n");
-    };
+    }
     if ( entartet(a,b,c) == 1){
         printf("unidimesional \n");
     }
@@ -64,7 +67,7 @@ int pythagoras (double a, double b, double c){
 // so lang wie die Summe der beiden anderen Seiten
 int entartet (double a, double b, double c){
     if ( (a + b) == c){return 1;}
-    else if ( (b + c) == a){ return 1;}
+    else if ((b + c) == a) { return 1;}
     else if ( (a+ c) == b) return 1;
     else return 0;
 }

@@ -272,6 +272,58 @@ CMakeFiles/EPROG_SS21.dir/series02/locate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EPROG_SS21.dir/series02/locate.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/CLionProjects/EPROG_SS21/series02/locate.c -o CMakeFiles/EPROG_SS21.dir/series02/locate.c.s
 
+CMakeFiles/EPROG_SS21.dir/series02/points.c.o: CMakeFiles/EPROG_SS21.dir/flags.make
+CMakeFiles/EPROG_SS21.dir/series02/points.c.o: ../series02/points.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/EPROG_SS21.dir/series02/points.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/EPROG_SS21.dir/series02/points.c.o   -c /home/julia/CLionProjects/EPROG_SS21/series02/points.c
+
+CMakeFiles/EPROG_SS21.dir/series02/points.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EPROG_SS21.dir/series02/points.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/julia/CLionProjects/EPROG_SS21/series02/points.c > CMakeFiles/EPROG_SS21.dir/series02/points.c.i
+
+CMakeFiles/EPROG_SS21.dir/series02/points.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EPROG_SS21.dir/series02/points.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/CLionProjects/EPROG_SS21/series02/points.c -o CMakeFiles/EPROG_SS21.dir/series02/points.c.s
+
+CMakeFiles/EPROG_SS21.dir/series02/rounding.c.o: CMakeFiles/EPROG_SS21.dir/flags.make
+CMakeFiles/EPROG_SS21.dir/series02/rounding.c.o: ../series02/rounding.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/EPROG_SS21.dir/series02/rounding.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/EPROG_SS21.dir/series02/rounding.c.o   -c /home/julia/CLionProjects/EPROG_SS21/series02/rounding.c
+
+CMakeFiles/EPROG_SS21.dir/series02/rounding.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EPROG_SS21.dir/series02/rounding.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/julia/CLionProjects/EPROG_SS21/series02/rounding.c > CMakeFiles/EPROG_SS21.dir/series02/rounding.c.i
+
+CMakeFiles/EPROG_SS21.dir/series02/rounding.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EPROG_SS21.dir/series02/rounding.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/CLionProjects/EPROG_SS21/series02/rounding.c -o CMakeFiles/EPROG_SS21.dir/series02/rounding.c.s
+
+CMakeFiles/EPROG_SS21.dir/series02/pythagoras.c.o: CMakeFiles/EPROG_SS21.dir/flags.make
+CMakeFiles/EPROG_SS21.dir/series02/pythagoras.c.o: ../series02/pythagoras.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/EPROG_SS21.dir/series02/pythagoras.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/EPROG_SS21.dir/series02/pythagoras.c.o   -c /home/julia/CLionProjects/EPROG_SS21/series02/pythagoras.c
+
+CMakeFiles/EPROG_SS21.dir/series02/pythagoras.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EPROG_SS21.dir/series02/pythagoras.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/julia/CLionProjects/EPROG_SS21/series02/pythagoras.c > CMakeFiles/EPROG_SS21.dir/series02/pythagoras.c.i
+
+CMakeFiles/EPROG_SS21.dir/series02/pythagoras.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EPROG_SS21.dir/series02/pythagoras.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/CLionProjects/EPROG_SS21/series02/pythagoras.c -o CMakeFiles/EPROG_SS21.dir/series02/pythagoras.c.s
+
+CMakeFiles/EPROG_SS21.dir/series02/bsp8.c.o: CMakeFiles/EPROG_SS21.dir/flags.make
+CMakeFiles/EPROG_SS21.dir/series02/bsp8.c.o: ../series02/bsp8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/EPROG_SS21.dir/series02/bsp8.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/EPROG_SS21.dir/series02/bsp8.c.o   -c /home/julia/CLionProjects/EPROG_SS21/series02/bsp8.c
+
+CMakeFiles/EPROG_SS21.dir/series02/bsp8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EPROG_SS21.dir/series02/bsp8.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/julia/CLionProjects/EPROG_SS21/series02/bsp8.c > CMakeFiles/EPROG_SS21.dir/series02/bsp8.c.i
+
+CMakeFiles/EPROG_SS21.dir/series02/bsp8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EPROG_SS21.dir/series02/bsp8.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/CLionProjects/EPROG_SS21/series02/bsp8.c -o CMakeFiles/EPROG_SS21.dir/series02/bsp8.c.s
+
 # Object files for target EPROG_SS21
 EPROG_SS21_OBJECTS = \
 "CMakeFiles/EPROG_SS21.dir/series00/helloworld.c.o" \
@@ -288,7 +340,11 @@ EPROG_SS21_OBJECTS = \
 "CMakeFiles/EPROG_SS21.dir/series02/bilanz.c.o" \
 "CMakeFiles/EPROG_SS21.dir/series02/triangle.c.o" \
 "CMakeFiles/EPROG_SS21.dir/series02/members.c.o" \
-"CMakeFiles/EPROG_SS21.dir/series02/locate.c.o"
+"CMakeFiles/EPROG_SS21.dir/series02/locate.c.o" \
+"CMakeFiles/EPROG_SS21.dir/series02/points.c.o" \
+"CMakeFiles/EPROG_SS21.dir/series02/rounding.c.o" \
+"CMakeFiles/EPROG_SS21.dir/series02/pythagoras.c.o" \
+"CMakeFiles/EPROG_SS21.dir/series02/bsp8.c.o"
 
 # External object files for target EPROG_SS21
 EPROG_SS21_EXTERNAL_OBJECTS =
@@ -308,9 +364,13 @@ EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series02/bilanz.c.o
 EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series02/triangle.c.o
 EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series02/members.c.o
 EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series02/locate.c.o
+EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series02/points.c.o
+EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series02/rounding.c.o
+EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series02/pythagoras.c.o
+EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series02/bsp8.c.o
 EPROG_SS21: CMakeFiles/EPROG_SS21.dir/build.make
 EPROG_SS21: CMakeFiles/EPROG_SS21.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C executable EPROG_SS21"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking C executable EPROG_SS21"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EPROG_SS21.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

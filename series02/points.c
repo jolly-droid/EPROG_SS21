@@ -11,7 +11,7 @@ Save your source code aspoints.cinto the directoryserie02. */
 
 int points (double a, double b, double x, double y, double u, double v);
 
-int main0205(int argc, char* argv[]) {
+int main0206(int argc, char* argv[]) {
     printf("Lets calculate the points \n");
    double a= 0, b = 0, u = 0, v = 0, x = 0, y = 0;
 

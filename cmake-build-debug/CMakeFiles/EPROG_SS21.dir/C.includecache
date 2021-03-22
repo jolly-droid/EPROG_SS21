@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/julia/CLionProjects/EPROG_SS21/series02/members.c
+/home/julia/CLionProjects/EPROG_SS21/series02/rounding.c
 stdio.h
--
-math.h
 -
 

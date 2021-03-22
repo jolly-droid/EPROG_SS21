@@ -467,6 +467,33 @@ series02/bilanz.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/bilanz.c.s
 .PHONY : series02/bilanz.c.s
 
+series02/bsp8.o: series02/bsp8.c.o
+
+.PHONY : series02/bsp8.o
+
+# target to build an object file
+series02/bsp8.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/bsp8.c.o
+.PHONY : series02/bsp8.c.o
+
+series02/bsp8.i: series02/bsp8.c.i
+
+.PHONY : series02/bsp8.i
+
+# target to preprocess a source file
+series02/bsp8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/bsp8.c.i
+.PHONY : series02/bsp8.c.i
+
+series02/bsp8.s: series02/bsp8.c.s
+
+.PHONY : series02/bsp8.s
+
+# target to generate assembly for a file
+series02/bsp8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/bsp8.c.s
+.PHONY : series02/bsp8.c.s
+
 series02/locate.o: series02/locate.c.o
 
 .PHONY : series02/locate.o
@@ -520,6 +547,87 @@ series02/members.s: series02/members.c.s
 series02/members.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/members.c.s
 .PHONY : series02/members.c.s
+
+series02/points.o: series02/points.c.o
+
+.PHONY : series02/points.o
+
+# target to build an object file
+series02/points.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/points.c.o
+.PHONY : series02/points.c.o
+
+series02/points.i: series02/points.c.i
+
+.PHONY : series02/points.i
+
+# target to preprocess a source file
+series02/points.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/points.c.i
+.PHONY : series02/points.c.i
+
+series02/points.s: series02/points.c.s
+
+.PHONY : series02/points.s
+
+# target to generate assembly for a file
+series02/points.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/points.c.s
+.PHONY : series02/points.c.s
+
+series02/pythagoras.o: series02/pythagoras.c.o
+
+.PHONY : series02/pythagoras.o
+
+# target to build an object file
+series02/pythagoras.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/pythagoras.c.o
+.PHONY : series02/pythagoras.c.o
+
+series02/pythagoras.i: series02/pythagoras.c.i
+
+.PHONY : series02/pythagoras.i
+
+# target to preprocess a source file
+series02/pythagoras.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/pythagoras.c.i
+.PHONY : series02/pythagoras.c.i
+
+series02/pythagoras.s: series02/pythagoras.c.s
+
+.PHONY : series02/pythagoras.s
+
+# target to generate assembly for a file
+series02/pythagoras.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/pythagoras.c.s
+.PHONY : series02/pythagoras.c.s
+
+series02/rounding.o: series02/rounding.c.o
+
+.PHONY : series02/rounding.o
+
+# target to build an object file
+series02/rounding.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/rounding.c.o
+.PHONY : series02/rounding.c.o
+
+series02/rounding.i: series02/rounding.c.i
+
+.PHONY : series02/rounding.i
+
+# target to preprocess a source file
+series02/rounding.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/rounding.c.i
+.PHONY : series02/rounding.c.i
+
+series02/rounding.s: series02/rounding.c.s
+
+.PHONY : series02/rounding.s
+
+# target to generate assembly for a file
+series02/rounding.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/rounding.c.s
+.PHONY : series02/rounding.c.s
 
 series02/triangle.o: series02/triangle.c.o
 
@@ -593,12 +701,24 @@ help:
 	@echo "... series02/bilanz.o"
 	@echo "... series02/bilanz.i"
 	@echo "... series02/bilanz.s"
+	@echo "... series02/bsp8.o"
+	@echo "... series02/bsp8.i"
+	@echo "... series02/bsp8.s"
 	@echo "... series02/locate.o"
 	@echo "... series02/locate.i"
 	@echo "... series02/locate.s"
 	@echo "... series02/members.o"
 	@echo "... series02/members.i"
 	@echo "... series02/members.s"
+	@echo "... series02/points.o"
+	@echo "... series02/points.i"
+	@echo "... series02/points.s"
+	@echo "... series02/pythagoras.o"
+	@echo "... series02/pythagoras.i"
+	@echo "... series02/pythagoras.s"
+	@echo "... series02/rounding.o"
+	@echo "... series02/rounding.i"
+	@echo "... series02/rounding.s"
 	@echo "... series02/triangle.o"
 	@echo "... series02/triangle.i"
 	@echo "... series02/triangle.s"

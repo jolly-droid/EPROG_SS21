@@ -3,17 +3,27 @@
         Speichern Sie den Source-Codeunterfolgenglied.cin das Verzeichnisserie02 */
 
 #include <stdio.h>
-#include <math.h>
 
-int mainG(int argc, char* argv[]) {
+
+int main0203(int argc, char* argv[]) {
     printf("Lets calculate the member \n");
-    double n= 0;
+    int n = 0;
+    double res = 0, help = 0;
     printf("Please insert n:");
-    scanf("%lf",&n);
-    double help = 1 / (n +2);
-    double ret = 0; //pow(-1, n);
-    double pr = ret / help;
-    printf( "this is the member %lf", pr);
-    return 0;
+    scanf("%d",&n);
+
+    if ( n < 0) {
+        return -1;
+    }else{
+        help = n + 2;
+        if (n % 2 == 0) {
+            res = (double) (1 / help);
+        } else {
+            res = (double) (-1 / help);
+        }
+
+        printf("this is the member %lf", res);
+        return 0;
+    }
 }
 

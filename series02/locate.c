@@ -7,28 +7,28 @@
  */
 #include <stdio.h>
 
-int main(int argc, char* argv[]) {
+int main0204(int argc, char* argv[]) {
     printf("Where is the point?");
     double a = 0, x = 0, y = 0;
     printf("Please insert length:");
     scanf("%lf",&a);
 
-    printf("Please insert x coordinate:");
+    printf("Please insert x coordinate:\n");
     scanf("%lf",&x);
 
-    printf("Please insert y coordinate:");
+    printf("Please insert y coordinate:\n");
     scanf("%lf",&y);
 
     if ( x < a){
         if ( y < a){
             printf("Point is inside\n");
         }else if ( y == a) {
-            printf("point is on boundary");
+            printf("point is on boundary\n");
         }else{
             printf("Point is outside\n");
         }
     } else if ( x==a){
-        printf("point is on boundary");
+        printf("point is on boundary\n");
     } else{ // x>a x is outside
         if ( y < a){
             printf("Point is inside\n");
