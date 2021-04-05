@@ -25,6 +25,7 @@ int main(int argc, char* argv[]) {
 
 }
 
+// returns negative number??
 void money(int number){
     int help = number;
     bool finished = true;
