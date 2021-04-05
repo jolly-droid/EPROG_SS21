@@ -7,12 +7,12 @@ Save your source code as  triangle.c  into the directoyserie02. */
 
 #include <stdio.h>
 void triType(double a, double b, double c);
-//checks whether trinagle is right
-int pythagoras ( double a, double b, double c);
-//checks whether
-int entartet(double a,double b,double c);
+//checks whether triangle is right
+int pythagorasx ( double a, double b, double c);
+
+int entartetx(double a,double b,double c);
 //checks whether triangle is a valid triangle
-int unmogliches (double a, double b, double c);
+int unmoglichesx (double a, double b, double c);
 
 int main0202 (int argc, char* argv[]) {
     printf("what type of triangel do we have here?\n");
@@ -40,14 +40,14 @@ void triType( double a, double b, double c) { //xor??
     if( (a!= b) ||(b != c) ||(c != a)){ //unregelmässig seiten alle ungleoch lang
         printf("scalene\n");
     }
-    if (pythagoras(a,b,c) == 1){
+    if (pythagorasx(a,b,c) == 1){
         printf("right angeled\n");
     }
-    if ( entartet(a,b,c) == 1){
+    if ( entartetx(a,b,c) == 1){
         printf("unidimesional \n");
     }
 
-    if ( unmogliches(a,b,c) == 1){
+    if ( unmoglichesx(a,b,c) == 1){
         printf("degenerated \n");
     }
 
@@ -55,7 +55,7 @@ void triType( double a, double b, double c) { //xor??
 }
 
 //rechtwinkelig - pythagoras
-int pythagoras (double a, double b, double c){
+int pythagorasx (double a, double b, double c){
     double side1 = a*a, side2 = b*b, side3 = c*c;
     if ( (side1 + side2) == side3) return 1;
     else if ( (side1 + side3) == side2) return 1;
@@ -65,7 +65,7 @@ int pythagoras (double a, double b, double c){
 
 //eindimensional l ‘entartetes’ (die l ̈angste Seite des Dreiecksist
 // so lang wie die Summe der beiden anderen Seiten
-int entartet (double a, double b, double c){
+int entartetx (double a, double b, double c){
     if ( (a + b) == c){return 1;}
     else if ((b + c) == a) { return 1;}
     else if ( (a+ c) == b) return 1;
@@ -74,7 +74,7 @@ int entartet (double a, double b, double c){
 //unmögliches dreieck a + b < c abfrage nach längster seite ‘unm ̈ogliches’
 // (die l ̈angste Seite desDreiecks ist l ̈anger als die Summe der beiden anderen Seiten)
 
-int unmogliches(double a, double b, double c){
+int unmoglichesx(double a, double b, double c){
     if ( (a + b) < c) return 1;
     else if ( (a + c ) < b) return 1;
     else if ( (b + c) < a) return 1;

@@ -629,32 +629,86 @@ series02/rounding.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/rounding.c.s
 .PHONY : series02/rounding.c.s
 
-series02/triangle.o: series02/triangle.c.o
+series02/triangle02.o: series02/triangle02.c.o
 
-.PHONY : series02/triangle.o
+.PHONY : series02/triangle02.o
 
 # target to build an object file
-series02/triangle.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/triangle.c.o
-.PHONY : series02/triangle.c.o
+series02/triangle02.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/triangle02.c.o
+.PHONY : series02/triangle02.c.o
 
-series02/triangle.i: series02/triangle.c.i
+series02/triangle02.i: series02/triangle02.c.i
 
-.PHONY : series02/triangle.i
+.PHONY : series02/triangle02.i
 
 # target to preprocess a source file
-series02/triangle.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/triangle.c.i
-.PHONY : series02/triangle.c.i
+series02/triangle02.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/triangle02.c.i
+.PHONY : series02/triangle02.c.i
 
-series02/triangle.s: series02/triangle.c.s
+series02/triangle02.s: series02/triangle02.c.s
 
-.PHONY : series02/triangle.s
+.PHONY : series02/triangle02.s
 
 # target to generate assembly for a file
-series02/triangle.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/triangle.c.s
-.PHONY : series02/triangle.c.s
+series02/triangle02.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/triangle02.c.s
+.PHONY : series02/triangle02.c.s
+
+series03/money.o: series03/money.c.o
+
+.PHONY : series03/money.o
+
+# target to build an object file
+series03/money.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/money.c.o
+.PHONY : series03/money.c.o
+
+series03/money.i: series03/money.c.i
+
+.PHONY : series03/money.i
+
+# target to preprocess a source file
+series03/money.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/money.c.i
+.PHONY : series03/money.c.i
+
+series03/money.s: series03/money.c.s
+
+.PHONY : series03/money.s
+
+# target to generate assembly for a file
+series03/money.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/money.c.s
+.PHONY : series03/money.c.s
+
+series03/triangle.o: series03/triangle.c.o
+
+.PHONY : series03/triangle.o
+
+# target to build an object file
+series03/triangle.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/triangle.c.o
+.PHONY : series03/triangle.c.o
+
+series03/triangle.i: series03/triangle.c.i
+
+.PHONY : series03/triangle.i
+
+# target to preprocess a source file
+series03/triangle.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/triangle.c.i
+.PHONY : series03/triangle.c.i
+
+series03/triangle.s: series03/triangle.c.s
+
+.PHONY : series03/triangle.s
+
+# target to generate assembly for a file
+series03/triangle.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/triangle.c.s
+.PHONY : series03/triangle.c.s
 
 # Help Target
 help:
@@ -719,9 +773,15 @@ help:
 	@echo "... series02/rounding.o"
 	@echo "... series02/rounding.i"
 	@echo "... series02/rounding.s"
-	@echo "... series02/triangle.o"
-	@echo "... series02/triangle.i"
-	@echo "... series02/triangle.s"
+	@echo "... series02/triangle02.o"
+	@echo "... series02/triangle02.i"
+	@echo "... series02/triangle02.s"
+	@echo "... series03/money.o"
+	@echo "... series03/money.i"
+	@echo "... series03/money.s"
+	@echo "... series03/triangle.o"
+	@echo "... series03/triangle.i"
+	@echo "... series03/triangle.s"
 .PHONY : help
 
 

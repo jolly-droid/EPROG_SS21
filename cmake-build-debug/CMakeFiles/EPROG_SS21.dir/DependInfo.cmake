@@ -22,7 +22,9 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/julia/CLionProjects/EPROG_SS21/series02/points.c" "/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles/EPROG_SS21.dir/series02/points.c.o"
   "/home/julia/CLionProjects/EPROG_SS21/series02/pythagoras.c" "/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles/EPROG_SS21.dir/series02/pythagoras.c.o"
   "/home/julia/CLionProjects/EPROG_SS21/series02/rounding.c" "/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles/EPROG_SS21.dir/series02/rounding.c.o"
-  "/home/julia/CLionProjects/EPROG_SS21/series02/triangle.c" "/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles/EPROG_SS21.dir/series02/triangle.c.o"
+  "/home/julia/CLionProjects/EPROG_SS21/series02/triangle02.c" "/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles/EPROG_SS21.dir/series02/triangle02.c.o"
+  "/home/julia/CLionProjects/EPROG_SS21/series03/money.c" "/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles/EPROG_SS21.dir/series03/money.c.o"
+  "/home/julia/CLionProjects/EPROG_SS21/series03/triangle.c" "/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles/EPROG_SS21.dir/series03/triangle.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

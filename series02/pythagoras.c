@@ -7,7 +7,7 @@
 int pytagoras(int a, int b, int c);
 
 int main0205(int argc, char* argv[]) {
-    printf("Do whe have a pythagorieic triangle?\n");
+    printf("Do whe have a pythagoräisches triangle?\n");
     int a = 0, b = 0, c = 0;
     printf("Please insert a:\n");
     scanf("%d", &a);
@@ -20,9 +20,9 @@ int main0205(int argc, char* argv[]) {
     }else {
         int true = pytagoras(a, b, c);
         if (true == 1){
-            printf("This is a pythagoreic triangle!\n");
+            printf("pythagoräisch!\n");
         }else{
-            printf("This is not a pythagoreic triangle!\n");
+            printf("nicht pythagoräisch!\n");
         }
         return 0;
     }

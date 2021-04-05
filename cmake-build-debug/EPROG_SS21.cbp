@@ -130,7 +130,13 @@
 		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series02/rounding.c">
 			<Option target="EPROG_SS21"/>
 		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series02/triangle.c">
+		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series02/triangle02.c">
+			<Option target="EPROG_SS21"/>
+		</Unit>
+		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series03/money.c">
+			<Option target="EPROG_SS21"/>
+		</Unit>
+		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series03/triangle.c">
 			<Option target="EPROG_SS21"/>
 		</Unit>
 		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/CMakeLists.txt">

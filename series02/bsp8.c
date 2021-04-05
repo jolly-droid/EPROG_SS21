@@ -1,7 +1,7 @@
 /*
  * Aufgabe 2.8.Wiederholen Sie die Begriffe
- * Lifetime :
- * Scope:
+ * Lifetime : variable und speicherplatz
+ * Scope: klammernlifetime
  * Was gibt folgendes Programm aus? Erklaren Sie warum.
  */
 

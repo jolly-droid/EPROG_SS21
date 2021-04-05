@@ -17,7 +17,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/EPROG_SS21.dir/series02/points.c.o"
   "CMakeFiles/EPROG_SS21.dir/series02/pythagoras.c.o"
   "CMakeFiles/EPROG_SS21.dir/series02/rounding.c.o"
-  "CMakeFiles/EPROG_SS21.dir/series02/triangle.c.o"
+  "CMakeFiles/EPROG_SS21.dir/series02/triangle02.c.o"
+  "CMakeFiles/EPROG_SS21.dir/series03/money.c.o"
+  "CMakeFiles/EPROG_SS21.dir/series03/triangle.c.o"
   "EPROG_SS21"
   "EPROG_SS21.pdb"
 )
