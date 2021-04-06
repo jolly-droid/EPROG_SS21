@@ -656,6 +656,60 @@ series02/triangle02.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series02/triangle02.c.s
 .PHONY : series02/triangle02.c.s
 
+series03/binomial.o: series03/binomial.c.o
+
+.PHONY : series03/binomial.o
+
+# target to build an object file
+series03/binomial.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/binomial.c.o
+.PHONY : series03/binomial.c.o
+
+series03/binomial.i: series03/binomial.c.i
+
+.PHONY : series03/binomial.i
+
+# target to preprocess a source file
+series03/binomial.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/binomial.c.i
+.PHONY : series03/binomial.c.i
+
+series03/binomial.s: series03/binomial.c.s
+
+.PHONY : series03/binomial.s
+
+# target to generate assembly for a file
+series03/binomial.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/binomial.c.s
+.PHONY : series03/binomial.c.s
+
+series03/fibbonacci.o: series03/fibbonacci.c.o
+
+.PHONY : series03/fibbonacci.o
+
+# target to build an object file
+series03/fibbonacci.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/fibbonacci.c.o
+.PHONY : series03/fibbonacci.c.o
+
+series03/fibbonacci.i: series03/fibbonacci.c.i
+
+.PHONY : series03/fibbonacci.i
+
+# target to preprocess a source file
+series03/fibbonacci.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/fibbonacci.c.i
+.PHONY : series03/fibbonacci.c.i
+
+series03/fibbonacci.s: series03/fibbonacci.c.s
+
+.PHONY : series03/fibbonacci.s
+
+# target to generate assembly for a file
+series03/fibbonacci.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/fibbonacci.c.s
+.PHONY : series03/fibbonacci.c.s
+
 series03/money.o: series03/money.c.o
 
 .PHONY : series03/money.o
@@ -682,6 +736,60 @@ series03/money.s: series03/money.c.s
 series03/money.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/money.c.s
 .PHONY : series03/money.c.s
+
+series03/product.o: series03/product.c.o
+
+.PHONY : series03/product.o
+
+# target to build an object file
+series03/product.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/product.c.o
+.PHONY : series03/product.c.o
+
+series03/product.i: series03/product.c.i
+
+.PHONY : series03/product.i
+
+# target to preprocess a source file
+series03/product.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/product.c.i
+.PHONY : series03/product.c.i
+
+series03/product.s: series03/product.c.s
+
+.PHONY : series03/product.s
+
+# target to generate assembly for a file
+series03/product.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/product.c.s
+.PHONY : series03/product.c.s
+
+series03/scanfpositive.o: series03/scanfpositive.c.o
+
+.PHONY : series03/scanfpositive.o
+
+# target to build an object file
+series03/scanfpositive.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/scanfpositive.c.o
+.PHONY : series03/scanfpositive.c.o
+
+series03/scanfpositive.i: series03/scanfpositive.c.i
+
+.PHONY : series03/scanfpositive.i
+
+# target to preprocess a source file
+series03/scanfpositive.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/scanfpositive.c.i
+.PHONY : series03/scanfpositive.c.i
+
+series03/scanfpositive.s: series03/scanfpositive.c.s
+
+.PHONY : series03/scanfpositive.s
+
+# target to generate assembly for a file
+series03/scanfpositive.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/scanfpositive.c.s
+.PHONY : series03/scanfpositive.c.s
 
 series03/triangle.o: series03/triangle.c.o
 
@@ -776,9 +884,21 @@ help:
 	@echo "... series02/triangle02.o"
 	@echo "... series02/triangle02.i"
 	@echo "... series02/triangle02.s"
+	@echo "... series03/binomial.o"
+	@echo "... series03/binomial.i"
+	@echo "... series03/binomial.s"
+	@echo "... series03/fibbonacci.o"
+	@echo "... series03/fibbonacci.i"
+	@echo "... series03/fibbonacci.s"
 	@echo "... series03/money.o"
 	@echo "... series03/money.i"
 	@echo "... series03/money.s"
+	@echo "... series03/product.o"
+	@echo "... series03/product.i"
+	@echo "... series03/product.s"
+	@echo "... series03/scanfpositive.o"
+	@echo "... series03/scanfpositive.i"
+	@echo "... series03/scanfpositive.s"
 	@echo "... series03/triangle.o"
 	@echo "... series03/triangle.i"
 	@echo "... series03/triangle.s"

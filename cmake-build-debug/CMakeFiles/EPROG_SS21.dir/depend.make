@@ -37,5 +37,17 @@ CMakeFiles/EPROG_SS21.dir/series02/pythagoras.c.o: ../series02/pythagoras.c
 
 CMakeFiles/EPROG_SS21.dir/series02/rounding.c.o: ../series02/rounding.c
 
-CMakeFiles/EPROG_SS21.dir/series02/triangle.c.o: ../series02/triangle.c
+CMakeFiles/EPROG_SS21.dir/series02/triangle02.c.o: ../series02/triangle02.c
+
+CMakeFiles/EPROG_SS21.dir/series03/binomial.c.o: ../series03/binomial.c
+
+CMakeFiles/EPROG_SS21.dir/series03/fibbonacci.c.o: ../series03/fibbonacci.c
+
+CMakeFiles/EPROG_SS21.dir/series03/money.c.o: ../series03/money.c
+
+CMakeFiles/EPROG_SS21.dir/series03/product.c.o: ../series03/product.c
+
+CMakeFiles/EPROG_SS21.dir/series03/scanfpositive.c.o: ../series03/scanfpositive.c
+
+CMakeFiles/EPROG_SS21.dir/series03/triangle.c.o: ../series03/triangle.c
 

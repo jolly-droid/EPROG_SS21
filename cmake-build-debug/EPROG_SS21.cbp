@@ -133,7 +133,19 @@
 		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series02/triangle02.c">
 			<Option target="EPROG_SS21"/>
 		</Unit>
+		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series03/binomial.c">
+			<Option target="EPROG_SS21"/>
+		</Unit>
+		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series03/fibbonacci.c">
+			<Option target="EPROG_SS21"/>
+		</Unit>
 		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series03/money.c">
+			<Option target="EPROG_SS21"/>
+		</Unit>
+		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series03/product.c">
+			<Option target="EPROG_SS21"/>
+		</Unit>
+		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series03/scanfpositive.c">
 			<Option target="EPROG_SS21"/>
 		</Unit>
 		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series03/triangle.c">

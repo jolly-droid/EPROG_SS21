@@ -12,15 +12,17 @@
 #include <stdbool.h>
 
 void money(int number);
-int main(int argc, char* argv[]) {
+int main0302(int argc, char* argv[]) {
     int a = 0;
     printf("what type of triangel do we have here?\n");
     printf("Please insert a:");
     scanf("%d",&a);
     if ( a <= 0){
         printf("Cannot be calculated");
+        return -1;
     }else{
         money(a);
+        return 0;
     }
 
 }

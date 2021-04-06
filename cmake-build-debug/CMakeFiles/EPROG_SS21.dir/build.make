@@ -350,6 +350,58 @@ CMakeFiles/EPROG_SS21.dir/series03/money.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EPROG_SS21.dir/series03/money.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/CLionProjects/EPROG_SS21/series03/money.c -o CMakeFiles/EPROG_SS21.dir/series03/money.c.s
 
+CMakeFiles/EPROG_SS21.dir/series03/fibbonacci.c.o: CMakeFiles/EPROG_SS21.dir/flags.make
+CMakeFiles/EPROG_SS21.dir/series03/fibbonacci.c.o: ../series03/fibbonacci.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/EPROG_SS21.dir/series03/fibbonacci.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/EPROG_SS21.dir/series03/fibbonacci.c.o   -c /home/julia/CLionProjects/EPROG_SS21/series03/fibbonacci.c
+
+CMakeFiles/EPROG_SS21.dir/series03/fibbonacci.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EPROG_SS21.dir/series03/fibbonacci.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/julia/CLionProjects/EPROG_SS21/series03/fibbonacci.c > CMakeFiles/EPROG_SS21.dir/series03/fibbonacci.c.i
+
+CMakeFiles/EPROG_SS21.dir/series03/fibbonacci.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EPROG_SS21.dir/series03/fibbonacci.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/CLionProjects/EPROG_SS21/series03/fibbonacci.c -o CMakeFiles/EPROG_SS21.dir/series03/fibbonacci.c.s
+
+CMakeFiles/EPROG_SS21.dir/series03/binomial.c.o: CMakeFiles/EPROG_SS21.dir/flags.make
+CMakeFiles/EPROG_SS21.dir/series03/binomial.c.o: ../series03/binomial.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/EPROG_SS21.dir/series03/binomial.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/EPROG_SS21.dir/series03/binomial.c.o   -c /home/julia/CLionProjects/EPROG_SS21/series03/binomial.c
+
+CMakeFiles/EPROG_SS21.dir/series03/binomial.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EPROG_SS21.dir/series03/binomial.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/julia/CLionProjects/EPROG_SS21/series03/binomial.c > CMakeFiles/EPROG_SS21.dir/series03/binomial.c.i
+
+CMakeFiles/EPROG_SS21.dir/series03/binomial.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EPROG_SS21.dir/series03/binomial.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/CLionProjects/EPROG_SS21/series03/binomial.c -o CMakeFiles/EPROG_SS21.dir/series03/binomial.c.s
+
+CMakeFiles/EPROG_SS21.dir/series03/scanfpositive.c.o: CMakeFiles/EPROG_SS21.dir/flags.make
+CMakeFiles/EPROG_SS21.dir/series03/scanfpositive.c.o: ../series03/scanfpositive.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/EPROG_SS21.dir/series03/scanfpositive.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/EPROG_SS21.dir/series03/scanfpositive.c.o   -c /home/julia/CLionProjects/EPROG_SS21/series03/scanfpositive.c
+
+CMakeFiles/EPROG_SS21.dir/series03/scanfpositive.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EPROG_SS21.dir/series03/scanfpositive.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/julia/CLionProjects/EPROG_SS21/series03/scanfpositive.c > CMakeFiles/EPROG_SS21.dir/series03/scanfpositive.c.i
+
+CMakeFiles/EPROG_SS21.dir/series03/scanfpositive.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EPROG_SS21.dir/series03/scanfpositive.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/CLionProjects/EPROG_SS21/series03/scanfpositive.c -o CMakeFiles/EPROG_SS21.dir/series03/scanfpositive.c.s
+
+CMakeFiles/EPROG_SS21.dir/series03/product.c.o: CMakeFiles/EPROG_SS21.dir/flags.make
+CMakeFiles/EPROG_SS21.dir/series03/product.c.o: ../series03/product.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/EPROG_SS21.dir/series03/product.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/EPROG_SS21.dir/series03/product.c.o   -c /home/julia/CLionProjects/EPROG_SS21/series03/product.c
+
+CMakeFiles/EPROG_SS21.dir/series03/product.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EPROG_SS21.dir/series03/product.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/julia/CLionProjects/EPROG_SS21/series03/product.c > CMakeFiles/EPROG_SS21.dir/series03/product.c.i
+
+CMakeFiles/EPROG_SS21.dir/series03/product.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EPROG_SS21.dir/series03/product.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/CLionProjects/EPROG_SS21/series03/product.c -o CMakeFiles/EPROG_SS21.dir/series03/product.c.s
+
 # Object files for target EPROG_SS21
 EPROG_SS21_OBJECTS = \
 "CMakeFiles/EPROG_SS21.dir/series00/helloworld.c.o" \
@@ -372,7 +424,11 @@ EPROG_SS21_OBJECTS = \
 "CMakeFiles/EPROG_SS21.dir/series02/pythagoras.c.o" \
 "CMakeFiles/EPROG_SS21.dir/series02/bsp8.c.o" \
 "CMakeFiles/EPROG_SS21.dir/series03/triangle.c.o" \
-"CMakeFiles/EPROG_SS21.dir/series03/money.c.o"
+"CMakeFiles/EPROG_SS21.dir/series03/money.c.o" \
+"CMakeFiles/EPROG_SS21.dir/series03/fibbonacci.c.o" \
+"CMakeFiles/EPROG_SS21.dir/series03/binomial.c.o" \
+"CMakeFiles/EPROG_SS21.dir/series03/scanfpositive.c.o" \
+"CMakeFiles/EPROG_SS21.dir/series03/product.c.o"
 
 # External object files for target EPROG_SS21
 EPROG_SS21_EXTERNAL_OBJECTS =
@@ -398,9 +454,13 @@ EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series02/pythagoras.c.o
 EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series02/bsp8.c.o
 EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series03/triangle.c.o
 EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series03/money.c.o
+EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series03/fibbonacci.c.o
+EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series03/binomial.c.o
+EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series03/scanfpositive.c.o
+EPROG_SS21: CMakeFiles/EPROG_SS21.dir/series03/product.c.o
 EPROG_SS21: CMakeFiles/EPROG_SS21.dir/build.make
 EPROG_SS21: CMakeFiles/EPROG_SS21.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C executable EPROG_SS21"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C executable EPROG_SS21"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EPROG_SS21.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
