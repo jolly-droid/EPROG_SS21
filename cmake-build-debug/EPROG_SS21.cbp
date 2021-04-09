@@ -76,63 +76,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series00/gewinn.c">
-			<Option target="EPROG_SS21"/>
-		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series00/helloworld.c">
-			<Option target="EPROG_SS21"/>
-		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series00/rechteck.c">
-			<Option target="EPROG_SS21"/>
-		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series01/bsp7.c">
-			<Option target="EPROG_SS21"/>
-		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series01/floor.c">
-			<Option target="EPROG_SS21"/>
-		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series01/handy.c">
-			<Option target="EPROG_SS21"/>
-		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series01/kreis.c">
-			<Option target="EPROG_SS21"/>
-		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series01/member.c">
-			<Option target="EPROG_SS21"/>
-		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series01/polyeval.c">
-			<Option target="EPROG_SS21"/>
-		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series01/scalarproduct.c">
-			<Option target="EPROG_SS21"/>
-		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series01/trapezoid.c">
-			<Option target="EPROG_SS21"/>
-		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series02/bilanz.c">
-			<Option target="EPROG_SS21"/>
-		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series02/bsp8.c">
-			<Option target="EPROG_SS21"/>
-		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series02/locate.c">
-			<Option target="EPROG_SS21"/>
-		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series02/members.c">
-			<Option target="EPROG_SS21"/>
-		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series02/points.c">
-			<Option target="EPROG_SS21"/>
-		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series02/pythagoras.c">
-			<Option target="EPROG_SS21"/>
-		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series02/rounding.c">
-			<Option target="EPROG_SS21"/>
-		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series02/triangle02.c">
-			<Option target="EPROG_SS21"/>
-		</Unit>
 		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series03/binomial.c">
 			<Option target="EPROG_SS21"/>
 		</Unit>

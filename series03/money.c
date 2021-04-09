@@ -9,13 +9,12 @@
  */
 
 #include <stdio.h>
-#include <stdbool.h>
+
 
 void money(int number);
-int main0302(int argc, char* argv[]) {
+int main(int argc, char* argv[]) {
     int a = 0;
-    printf("what type of triangel do we have here?\n");
-    printf("Please insert a:");
+    printf("Please insert the money amount:");
     scanf("%d",&a);
     if ( a <= 0){
         printf("Cannot be calculated");
@@ -27,55 +26,25 @@ int main0302(int argc, char* argv[]) {
 
 }
 
-// returns negative number??
+
 void money(int number){
-    int help = number;
-    bool finished = true;
-    int counter500 = 0, counter100 = 0, counter50 = 0, counter20 = 0, counter10 = 0, counter5 = 0, counter2 = 0, counter1 = 0;
-    //while ((number != 0) && finished){
-        if ((number % 500) == 0) {
-            counter500 = number/500;
-            number = 0;
-        }else{
-            number = number - 500;
-            if ((number % 100) == 0) {
-                counter100 = number/100;
-                number = 0;
-            } else {
-                number = number - 100;
-                if ((number % 50) == 0) {
-                    counter50 = number/50;
-                }else{
-                    number = number - 50;
-                    if ((number % 20) == 0) {
-                        counter20 = number/20;
-                    }else{
-                        number = number - 20;
-                        if ((number % 10) == 0) {
-                            counter10 = number/10;
 
-                        } else{
-                            if ((number % 5) == 0) {
-                                counter500 = number/5;
-                            }else{
-                                if((number % 2) != 0) {
-                                    counter1++;
-                                    number = number - 1;
-                                }
-                            }
-                            printf("number %d", number);
+        int notes []=  { 500, 100, 50, 20, 10, 5,2, 1 };
+        int noteCounter [] = { 0,0,0,0,0,0,0};
 
-                        }
-                        printf("number %d", number);
-
-                    }
-                    printf("number %d", number);
-                }
-                printf("number %d", number);
+        // count notes using Greedy approach
+        for (int i = 0; i < 8; i++) {
+            if (number >= notes[i]) { // 351 >= 500, 351 >= 100
+                noteCounter[i] = number / notes[i]; //351 / 100 = 3
+                number = number - noteCounter[i] * notes[i]; // 351 - 300 = 51 etc
             }
-            printf("number %d", number);
         }
-    printf("number %d", number);
 
-    //}
-}
+       //print
+        for (int i = 0; i < 8; i++) {
+            if (noteCounter[i] != 0) { //print node counter array
+               printf( "%d x %d \n", notes[i], noteCounter[i] );
+            }
+        }
+    }
+
