@@ -7,6 +7,8 @@ CMakeFiles/EPROG_SS21.dir/series03/fibbonacci.c.o: ../series03/fibbonacci.c
 
 CMakeFiles/EPROG_SS21.dir/series03/money.c.o: ../series03/money.c
 
+CMakeFiles/EPROG_SS21.dir/series03/papercut.c.o: ../series03/papercut.c
+
 CMakeFiles/EPROG_SS21.dir/series03/product.c.o: ../series03/product.c
 
 CMakeFiles/EPROG_SS21.dir/series03/scanfpositive.c.o: ../series03/scanfpositive.c

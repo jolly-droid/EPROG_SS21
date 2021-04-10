@@ -8,12 +8,14 @@
  */
 
 #include <stdio.h>
-#include <math.h>
 
+/** @brief: function calculatin the binominal coefficient
+ * @param n and k in (n over k)
+ * @return returns the result from (n over k)
+ */
 int binomial(int n, int k);
-int factorial (int n);
 
-int main0304(int argc, char* argv[]) {
+int main0304(int argc, char* argv[]) { //0304
     int n = 0, k = 0;
     printf("Please insert n:");
     scanf("%d", &n);
@@ -21,34 +23,21 @@ int main0304(int argc, char* argv[]) {
     scanf("%d", &k);
     if(n < 0 || k < 0){
         printf("Cannot be calculated");
-        return -1;
-    } else if ((n == k)|| (k == 0)){
-        printf("1");
-        return 0;
-    }else{
-        k = factorial(k);
-        n = factorial(n);
-
-        binomial(n,k);
-        return 0;
+        return -1;}
+    else{
+        int d = binomial(n-1,k)+ binomial(n-1, k-1);
+        //int f = binomial(n,k);
+        printf("the result is %d", d);
     }
 
 }
-int factorial(int n){
-    int fact = 0;
-    for(int i=1;i<=n;i++){
-        fact=fact*i;
-    }
-    return fact;
-}
-int binomial(int n, int k){
-    int s = 0;
-    if(n == 0){
-       return s;
-    }else{
 
-        binomial(n-1, k-1);
-    }
-    return s;
+int binomial(int n, int k){ //(n over k ) = (n-1 over k) + (n-1 over k-1);
+ if ( k == 0){ // n == k)||
+        return 1;
+ }else{
+     return (n*binomial(n-1, k-1))/k;
+ }
 }
+
 

@@ -6,8 +6,14 @@
  */
 
 #include <stdio.h>
-
+/**
+ * @brief calculates the product of to numbers, using only addition
+ * @param x first factor
+ * @param y second factor
+ * @return solution of x*y
+ */
 int product(int x, int y);
+
 int main0305(int argc, char* argv[]) {
     int x = 0, y = 0;
     printf("Please insert x:");

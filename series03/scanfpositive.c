@@ -6,7 +6,10 @@
  */
 
 #include <stdio.h>
-
+/**
+ * @brief checks whether the userinput is a positive double number
+ * @return returns the double number
+ */
 double scanfpositive();
 
 int main0306(int argc, char* argv[]) {

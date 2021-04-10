@@ -85,6 +85,9 @@
 		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series03/money.c">
 			<Option target="EPROG_SS21"/>
 		</Unit>
+		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series03/papercut.c">
+			<Option target="EPROG_SS21"/>
+		</Unit>
 		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series03/product.c">
 			<Option target="EPROG_SS21"/>
 		</Unit>

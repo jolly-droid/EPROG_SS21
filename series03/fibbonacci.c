@@ -8,13 +8,13 @@
 #include <math.h>
 #include <stdio.h>
 
-/* @brief: calculates all fibonacci series recursively
+/** @brief: calculates all fibonacci series recursively
  * @param: n is the index of the member to be calculated
  * @return: returns the calculated fibonacci member
 */
 int fibonacci(int n);
 
-/* @brief: calculates the n_th element of the fibonacci series non recursive, using golden section
+/** @brief: calculates the n_th element of the fibonacci series non recursive, using golden section
  * @param: n is the index of the member to be calculated
  * @return: returns the calculated fibonacci member
 */

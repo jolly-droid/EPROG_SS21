@@ -6,11 +6,31 @@ Then, write a main program which readsa,bandcfrom the keyboard and call the func
 Save your source code astriangle.cinto the directoryserie03.*/
 
 #include <stdio.h>
+/**
+ * @brief checks whether given triangle is right angeled
+ * @param a side a
+ * @param b side b
+ * @param c side c
+ */
 void triangle(double a, double b, double c);
 //checks whether triangle is right
 
+/**
+ * @brief checks whether triangle is valid
+ * @param a
+ * @param b
+ * @param c
+ * @return returns 1 if true, 0 otherwise
+ */
 int entartet(double a,double b,double c);
-//checks whether triangle is a valid triangle
+
+/**
+ * @brief checks whether a + b < c
+ * @param a
+ * @param b
+ * @param c
+ * @return retruns 1 on true, 0 otherwise
+ */
 int unmogliches (double a, double b, double c);
 
 int main0301 (int argc, char* argv[]) {
@@ -52,15 +72,12 @@ void triangle(double a, double b, double c) {
 }
 
 
-//eindimensional entartetes (die l angste Seite des Dreiecks ist so lang wie die Summe der beiden anderen Seiten
 int entartet (double a, double b, double c){
     if ( (a + b) == c){return 1;}
     else if ((b + c) == a) { return 1;}
     else if ( (a+ c) == b) return 1;
     else return 0;
 }
-//unmögliches dreieck a + b < c abfrage nach längster seite ‘unm ̈ogliches’
-// (die l ̈angste Seite desDreiecks ist l ̈anger als die Summe der beiden anderen Seiten)
 
 int unmogliches(double a, double b, double c){
     if ( (a + b) < c) return 1;

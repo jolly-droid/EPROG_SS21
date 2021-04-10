@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/EPROG_SS21.dir/series03/binomial.c.o"
   "CMakeFiles/EPROG_SS21.dir/series03/fibbonacci.c.o"
   "CMakeFiles/EPROG_SS21.dir/series03/money.c.o"
+  "CMakeFiles/EPROG_SS21.dir/series03/papercut.c.o"
   "CMakeFiles/EPROG_SS21.dir/series03/product.c.o"
   "CMakeFiles/EPROG_SS21.dir/series03/scanfpositive.c.o"
   "CMakeFiles/EPROG_SS21.dir/series03/triangle.c.o"

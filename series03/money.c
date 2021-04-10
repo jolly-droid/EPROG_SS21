@@ -10,9 +10,13 @@
 
 #include <stdio.h>
 
-
+/**
+ * @brief: calculates the amount of needed bank notes for a sum
+ * @param number is the amount of money that needs to be divided
+ */
 void money(int number);
-int main(int argc, char* argv[]) {
+
+int main0303(int argc, char* argv[]) {
     int a = 0;
     printf("Please insert the money amount:");
     scanf("%d",&a);

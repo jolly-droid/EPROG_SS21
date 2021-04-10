@@ -223,6 +223,33 @@ series03/money.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/money.c.s
 .PHONY : series03/money.c.s
 
+series03/papercut.o: series03/papercut.c.o
+
+.PHONY : series03/papercut.o
+
+# target to build an object file
+series03/papercut.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/papercut.c.o
+.PHONY : series03/papercut.c.o
+
+series03/papercut.i: series03/papercut.c.i
+
+.PHONY : series03/papercut.i
+
+# target to preprocess a source file
+series03/papercut.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/papercut.c.i
+.PHONY : series03/papercut.c.i
+
+series03/papercut.s: series03/papercut.c.s
+
+.PHONY : series03/papercut.s
+
+# target to generate assembly for a file
+series03/papercut.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/papercut.c.s
+.PHONY : series03/papercut.c.s
+
 series03/product.o: series03/product.c.o
 
 .PHONY : series03/product.o
@@ -322,6 +349,9 @@ help:
 	@echo "... series03/money.o"
 	@echo "... series03/money.i"
 	@echo "... series03/money.s"
+	@echo "... series03/papercut.o"
+	@echo "... series03/papercut.i"
+	@echo "... series03/papercut.s"
 	@echo "... series03/product.o"
 	@echo "... series03/product.i"
 	@echo "... series03/product.s"
