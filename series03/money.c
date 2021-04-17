@@ -34,7 +34,7 @@ int main0303(int argc, char* argv[]) {
 void money(int number){
 
         int notes []=  { 500, 100, 50, 20, 10, 5,2, 1 };
-        int noteCounter [] = { 0,0,0,0,0,0,0};
+        int noteCounter [] = {0,0,0,0,0,0,0};
 
         // count notes using Greedy approach
         for (int i = 0; i < 8; i++) {

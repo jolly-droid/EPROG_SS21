@@ -76,25 +76,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series03/binomial.c">
+		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series04/binomial.c">
 			<Option target="EPROG_SS21"/>
 		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series03/fibbonacci.c">
+		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series04/cross.c">
 			<Option target="EPROG_SS21"/>
 		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series03/money.c">
+		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series04/frobeniusnorm.c">
 			<Option target="EPROG_SS21"/>
 		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series03/papercut.c">
+		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series04/kgv.c">
 			<Option target="EPROG_SS21"/>
 		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series03/product.c">
+		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series04/pirecursive.c">
 			<Option target="EPROG_SS21"/>
 		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series03/scanfpositive.c">
-			<Option target="EPROG_SS21"/>
-		</Unit>
-		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series03/triangle.c">
+		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series04/pnorm.c">
 			<Option target="EPROG_SS21"/>
 		</Unit>
 		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/CMakeLists.txt">

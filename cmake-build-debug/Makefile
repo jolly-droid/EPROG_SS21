@@ -142,194 +142,167 @@ EPROG_SS21/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/build
 .PHONY : EPROG_SS21/fast
 
-series03/binomial.o: series03/binomial.c.o
+series04/binomial.o: series04/binomial.c.o
 
-.PHONY : series03/binomial.o
-
-# target to build an object file
-series03/binomial.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/binomial.c.o
-.PHONY : series03/binomial.c.o
-
-series03/binomial.i: series03/binomial.c.i
-
-.PHONY : series03/binomial.i
-
-# target to preprocess a source file
-series03/binomial.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/binomial.c.i
-.PHONY : series03/binomial.c.i
-
-series03/binomial.s: series03/binomial.c.s
-
-.PHONY : series03/binomial.s
-
-# target to generate assembly for a file
-series03/binomial.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/binomial.c.s
-.PHONY : series03/binomial.c.s
-
-series03/fibbonacci.o: series03/fibbonacci.c.o
-
-.PHONY : series03/fibbonacci.o
+.PHONY : series04/binomial.o
 
 # target to build an object file
-series03/fibbonacci.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/fibbonacci.c.o
-.PHONY : series03/fibbonacci.c.o
+series04/binomial.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/binomial.c.o
+.PHONY : series04/binomial.c.o
 
-series03/fibbonacci.i: series03/fibbonacci.c.i
+series04/binomial.i: series04/binomial.c.i
 
-.PHONY : series03/fibbonacci.i
+.PHONY : series04/binomial.i
 
 # target to preprocess a source file
-series03/fibbonacci.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/fibbonacci.c.i
-.PHONY : series03/fibbonacci.c.i
+series04/binomial.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/binomial.c.i
+.PHONY : series04/binomial.c.i
 
-series03/fibbonacci.s: series03/fibbonacci.c.s
+series04/binomial.s: series04/binomial.c.s
 
-.PHONY : series03/fibbonacci.s
+.PHONY : series04/binomial.s
 
 # target to generate assembly for a file
-series03/fibbonacci.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/fibbonacci.c.s
-.PHONY : series03/fibbonacci.c.s
+series04/binomial.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/binomial.c.s
+.PHONY : series04/binomial.c.s
 
-series03/money.o: series03/money.c.o
+series04/cross.o: series04/cross.c.o
 
-.PHONY : series03/money.o
+.PHONY : series04/cross.o
 
 # target to build an object file
-series03/money.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/money.c.o
-.PHONY : series03/money.c.o
+series04/cross.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/cross.c.o
+.PHONY : series04/cross.c.o
 
-series03/money.i: series03/money.c.i
+series04/cross.i: series04/cross.c.i
 
-.PHONY : series03/money.i
+.PHONY : series04/cross.i
 
 # target to preprocess a source file
-series03/money.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/money.c.i
-.PHONY : series03/money.c.i
+series04/cross.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/cross.c.i
+.PHONY : series04/cross.c.i
 
-series03/money.s: series03/money.c.s
+series04/cross.s: series04/cross.c.s
 
-.PHONY : series03/money.s
+.PHONY : series04/cross.s
 
 # target to generate assembly for a file
-series03/money.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/money.c.s
-.PHONY : series03/money.c.s
+series04/cross.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/cross.c.s
+.PHONY : series04/cross.c.s
 
-series03/papercut.o: series03/papercut.c.o
+series04/frobeniusnorm.o: series04/frobeniusnorm.c.o
 
-.PHONY : series03/papercut.o
+.PHONY : series04/frobeniusnorm.o
 
 # target to build an object file
-series03/papercut.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/papercut.c.o
-.PHONY : series03/papercut.c.o
+series04/frobeniusnorm.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/frobeniusnorm.c.o
+.PHONY : series04/frobeniusnorm.c.o
 
-series03/papercut.i: series03/papercut.c.i
+series04/frobeniusnorm.i: series04/frobeniusnorm.c.i
 
-.PHONY : series03/papercut.i
+.PHONY : series04/frobeniusnorm.i
 
 # target to preprocess a source file
-series03/papercut.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/papercut.c.i
-.PHONY : series03/papercut.c.i
+series04/frobeniusnorm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/frobeniusnorm.c.i
+.PHONY : series04/frobeniusnorm.c.i
 
-series03/papercut.s: series03/papercut.c.s
+series04/frobeniusnorm.s: series04/frobeniusnorm.c.s
 
-.PHONY : series03/papercut.s
+.PHONY : series04/frobeniusnorm.s
 
 # target to generate assembly for a file
-series03/papercut.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/papercut.c.s
-.PHONY : series03/papercut.c.s
+series04/frobeniusnorm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/frobeniusnorm.c.s
+.PHONY : series04/frobeniusnorm.c.s
 
-series03/product.o: series03/product.c.o
+series04/kgv.o: series04/kgv.c.o
 
-.PHONY : series03/product.o
+.PHONY : series04/kgv.o
 
 # target to build an object file
-series03/product.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/product.c.o
-.PHONY : series03/product.c.o
+series04/kgv.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/kgv.c.o
+.PHONY : series04/kgv.c.o
 
-series03/product.i: series03/product.c.i
+series04/kgv.i: series04/kgv.c.i
 
-.PHONY : series03/product.i
+.PHONY : series04/kgv.i
 
 # target to preprocess a source file
-series03/product.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/product.c.i
-.PHONY : series03/product.c.i
+series04/kgv.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/kgv.c.i
+.PHONY : series04/kgv.c.i
 
-series03/product.s: series03/product.c.s
+series04/kgv.s: series04/kgv.c.s
 
-.PHONY : series03/product.s
+.PHONY : series04/kgv.s
 
 # target to generate assembly for a file
-series03/product.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/product.c.s
-.PHONY : series03/product.c.s
+series04/kgv.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/kgv.c.s
+.PHONY : series04/kgv.c.s
 
-series03/scanfpositive.o: series03/scanfpositive.c.o
+series04/pirecursive.o: series04/pirecursive.c.o
 
-.PHONY : series03/scanfpositive.o
+.PHONY : series04/pirecursive.o
 
 # target to build an object file
-series03/scanfpositive.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/scanfpositive.c.o
-.PHONY : series03/scanfpositive.c.o
+series04/pirecursive.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/pirecursive.c.o
+.PHONY : series04/pirecursive.c.o
 
-series03/scanfpositive.i: series03/scanfpositive.c.i
+series04/pirecursive.i: series04/pirecursive.c.i
 
-.PHONY : series03/scanfpositive.i
+.PHONY : series04/pirecursive.i
 
 # target to preprocess a source file
-series03/scanfpositive.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/scanfpositive.c.i
-.PHONY : series03/scanfpositive.c.i
+series04/pirecursive.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/pirecursive.c.i
+.PHONY : series04/pirecursive.c.i
 
-series03/scanfpositive.s: series03/scanfpositive.c.s
+series04/pirecursive.s: series04/pirecursive.c.s
 
-.PHONY : series03/scanfpositive.s
+.PHONY : series04/pirecursive.s
 
 # target to generate assembly for a file
-series03/scanfpositive.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/scanfpositive.c.s
-.PHONY : series03/scanfpositive.c.s
+series04/pirecursive.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/pirecursive.c.s
+.PHONY : series04/pirecursive.c.s
 
-series03/triangle.o: series03/triangle.c.o
+series04/pnorm.o: series04/pnorm.c.o
 
-.PHONY : series03/triangle.o
+.PHONY : series04/pnorm.o
 
 # target to build an object file
-series03/triangle.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/triangle.c.o
-.PHONY : series03/triangle.c.o
+series04/pnorm.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/pnorm.c.o
+.PHONY : series04/pnorm.c.o
 
-series03/triangle.i: series03/triangle.c.i
+series04/pnorm.i: series04/pnorm.c.i
 
-.PHONY : series03/triangle.i
+.PHONY : series04/pnorm.i
 
 # target to preprocess a source file
-series03/triangle.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/triangle.c.i
-.PHONY : series03/triangle.c.i
+series04/pnorm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/pnorm.c.i
+.PHONY : series04/pnorm.c.i
 
-series03/triangle.s: series03/triangle.c.s
+series04/pnorm.s: series04/pnorm.c.s
 
-.PHONY : series03/triangle.s
+.PHONY : series04/pnorm.s
 
 # target to generate assembly for a file
-series03/triangle.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series03/triangle.c.s
-.PHONY : series03/triangle.c.s
+series04/pnorm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/pnorm.c.s
+.PHONY : series04/pnorm.c.s
 
 # Help Target
 help:
@@ -340,27 +313,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... EPROG_SS21"
-	@echo "... series03/binomial.o"
-	@echo "... series03/binomial.i"
-	@echo "... series03/binomial.s"
-	@echo "... series03/fibbonacci.o"
-	@echo "... series03/fibbonacci.i"
-	@echo "... series03/fibbonacci.s"
-	@echo "... series03/money.o"
-	@echo "... series03/money.i"
-	@echo "... series03/money.s"
-	@echo "... series03/papercut.o"
-	@echo "... series03/papercut.i"
-	@echo "... series03/papercut.s"
-	@echo "... series03/product.o"
-	@echo "... series03/product.i"
-	@echo "... series03/product.s"
-	@echo "... series03/scanfpositive.o"
-	@echo "... series03/scanfpositive.i"
-	@echo "... series03/scanfpositive.s"
-	@echo "... series03/triangle.o"
-	@echo "... series03/triangle.i"
-	@echo "... series03/triangle.s"
+	@echo "... series04/binomial.o"
+	@echo "... series04/binomial.i"
+	@echo "... series04/binomial.s"
+	@echo "... series04/cross.o"
+	@echo "... series04/cross.i"
+	@echo "... series04/cross.s"
+	@echo "... series04/frobeniusnorm.o"
+	@echo "... series04/frobeniusnorm.i"
+	@echo "... series04/frobeniusnorm.s"
+	@echo "... series04/kgv.o"
+	@echo "... series04/kgv.i"
+	@echo "... series04/kgv.s"
+	@echo "... series04/pirecursive.o"
+	@echo "... series04/pirecursive.i"
+	@echo "... series04/pirecursive.s"
+	@echo "... series04/pnorm.o"
+	@echo "... series04/pnorm.i"
+	@echo "... series04/pnorm.s"
 .PHONY : help
 
 

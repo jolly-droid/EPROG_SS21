@@ -20,10 +20,23 @@ int fibonacci(int n);
 */
 int fibonacciNonRecursive(int n);
 
-// help function to calculate the nth power bc math cant be included(?)
+/** @brief: calculates x to the power of y
+ * @param: x and y
+ * @return: returns the calculated number as double
+*/
 double power(double x, int y);
+int quiz(int n){
+    if(n>1){
+        printf( "%d", n);
+        return quiz(n-1)+2;
+    }
+    else return 2;
+}
+int main0300(int argc, char* argv[]) {
 
-int main0308(int argc, char* argv[]) {
+    int result = quiz(4);
+    printf("result: %d", result);
+    /*
     int a = 0;
     printf("Let's calculate the fibbonaci numbers \n");
     printf("Please insert n:");
@@ -38,10 +51,10 @@ int main0308(int argc, char* argv[]) {
         }*/
 
        //non recursive version
-       int result =  fibonacciNonRecursive(a);
-        printf("%d ",result);
+      // int result =  fibonacciNonRecursive(a);
+        //printf("%d ",result);
 
-    }
+   // }
     return 0;
 }
 
@@ -56,19 +69,23 @@ int fibonacci(int n) {
     }
 }
 
-//non recursive version not working
+//this doesnt work, better version only with for loop possible!!
 int fibonacciNonRecursive(int n) {
     int help = 0;
-    double rootFive = sqrt(5), help3 = 1, help4 = 0;
+    double rootFive = sqrt(5), help3 = 1, help4 = 1, help5 = 1;
 
     if(n == 0 || n == 1){
         help = 1;
     } else {
         help3 = (1+rootFive)/(2);
         help4 = (1-rootFive)/(2);
+       // printf("%lf, %lf,", help3, help4);
         help3 = power(help3, n);
         help4 = power(help4, n);
-        help = (int) ((help3-help4)/rootFive);
+        help5 = help3-help4;
+        int a = 5;
+        printf("%f,", a);
+        help = (int) (help5/rootFive);
     }
     return help;
 }

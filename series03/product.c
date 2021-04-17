@@ -14,7 +14,7 @@
  */
 int product(int x, int y);
 
-int main0305(int argc, char* argv[]) {
+int main0307(int argc, char* argv[]) {
     int x = 0, y = 0;
     printf("Please insert x:");
     scanf("%d", &x);

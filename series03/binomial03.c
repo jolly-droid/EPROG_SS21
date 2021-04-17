@@ -13,7 +13,7 @@
  * @param n and k in (n over k)
  * @return returns the result from (n over k)
  */
-int binomial(int n, int k);
+int binomialL(int n, int k);
 
 int main0304(int argc, char* argv[]) { //0304
     int n = 0, k = 0;
@@ -25,18 +25,18 @@ int main0304(int argc, char* argv[]) { //0304
         printf("Cannot be calculated");
         return -1;}
     else{
-        int d = binomial(n-1,k)+ binomial(n-1, k-1);
+        int d = binomialL(n-1,k)+ binomialL(n-1, k-1);
         //int f = binomial(n,k);
         printf("the result is %d", d);
     }
 
 }
 
-int binomial(int n, int k){ //(n over k ) = (n-1 over k) + (n-1 over k-1);
+int binomialL(int n, int k){ //(n over k ) = (n-1 over k) + (n-1 over k-1);
  if ( k == 0){ // n == k)||
         return 1;
  }else{
-     return (n*binomial(n-1, k-1))/k;
+     return (n*binomialL(n-1, k-1))/k;
  }
 }
 
