@@ -79,6 +79,9 @@
 		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series04/binomial.c">
 			<Option target="EPROG_SS21"/>
 		</Unit>
+		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series04/check.c">
+			<Option target="EPROG_SS21"/>
+		</Unit>
 		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series04/cross.c">
 			<Option target="EPROG_SS21"/>
 		</Unit>
@@ -92,6 +95,9 @@
 			<Option target="EPROG_SS21"/>
 		</Unit>
 		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series04/pnorm.c">
+			<Option target="EPROG_SS21"/>
+		</Unit>
+		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/series04/sqrt_new.c">
 			<Option target="EPROG_SS21"/>
 		</Unit>
 		<Unit filename="/home/julia/CLionProjects/EPROG_SS21/CMakeLists.txt">

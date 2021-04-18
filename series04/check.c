@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int check( int numberArray[], int combi[]);
-int main0405(int argc, char* argv[]) {
+int main0406(int argc, char* argv[]) {
     int numberArray[6];
     int combi[3];
    // printf("%s\n", argv[0]);

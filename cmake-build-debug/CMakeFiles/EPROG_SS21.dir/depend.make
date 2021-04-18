@@ -3,6 +3,8 @@
 
 CMakeFiles/EPROG_SS21.dir/series04/binomial.c.o: ../series04/binomial.c
 
+CMakeFiles/EPROG_SS21.dir/series04/check.c.o: ../series04/check.c
+
 CMakeFiles/EPROG_SS21.dir/series04/cross.c.o: ../series04/cross.c
 
 CMakeFiles/EPROG_SS21.dir/series04/frobeniusnorm.c.o: ../series04/frobeniusnorm.c
@@ -12,4 +14,6 @@ CMakeFiles/EPROG_SS21.dir/series04/kgv.c.o: ../series04/kgv.c
 CMakeFiles/EPROG_SS21.dir/series04/pirecursive.c.o: ../series04/pirecursive.c
 
 CMakeFiles/EPROG_SS21.dir/series04/pnorm.c.o: ../series04/pnorm.c
+
+CMakeFiles/EPROG_SS21.dir/series04/sqrt_new.c.o: ../series04/sqrt_new.c
 

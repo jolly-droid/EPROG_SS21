@@ -35,24 +35,20 @@ void cross(int n) {
             printf("%d", i);
 
             for (int j = i; j < n; j++) { // passt
-                //printf("%d", j);
+
                 printf("%s", space);
                 printf("%s", space);
             }
             printf("%d", i);
 
         } else { // aufsteigend
-
-            //for (int j = i-n; j > 0; --j) { // hier ist der fehler !!!
-               // for (int j = 0; j <= i-n; j++) { // hier ist der fehler !!!
-                    for (int j = i; j>n; j--) { // hier ist der fehler !!!
-                printf(".%s", space);
-               // printf("%s", space);
+            for (int j = 2*n-1-i; j > 0 ; j--) {
+                printf("%s", space);
             }
+
             printf("%d", 2 * n - i);
 
-            for (int j = half - 1; j < i; j++) { //passt
-                // printf("%d", j);
+            for (int k = half - 1; k < i; k++) { //passt
                 printf("%s", space);
                 printf("%s", space);
             }

@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/julia/CLionProjects/EPROG_SS21/series04/kgv.c
+/home/julia/CLionProjects/EPROG_SS21/series04/pirecursive.c
 stdio.h
+-
+assert.h
 -
 

@@ -1,10 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/EPROG_SS21.dir/series04/binomial.c.o"
+  "CMakeFiles/EPROG_SS21.dir/series04/check.c.o"
   "CMakeFiles/EPROG_SS21.dir/series04/cross.c.o"
   "CMakeFiles/EPROG_SS21.dir/series04/frobeniusnorm.c.o"
   "CMakeFiles/EPROG_SS21.dir/series04/kgv.c.o"
   "CMakeFiles/EPROG_SS21.dir/series04/pirecursive.c.o"
   "CMakeFiles/EPROG_SS21.dir/series04/pnorm.c.o"
+  "CMakeFiles/EPROG_SS21.dir/series04/sqrt_new.c.o"
   "EPROG_SS21"
   "EPROG_SS21.pdb"
 )

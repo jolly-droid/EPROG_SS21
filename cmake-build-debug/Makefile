@@ -169,6 +169,33 @@ series04/binomial.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/binomial.c.s
 .PHONY : series04/binomial.c.s
 
+series04/check.o: series04/check.c.o
+
+.PHONY : series04/check.o
+
+# target to build an object file
+series04/check.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/check.c.o
+.PHONY : series04/check.c.o
+
+series04/check.i: series04/check.c.i
+
+.PHONY : series04/check.i
+
+# target to preprocess a source file
+series04/check.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/check.c.i
+.PHONY : series04/check.c.i
+
+series04/check.s: series04/check.c.s
+
+.PHONY : series04/check.s
+
+# target to generate assembly for a file
+series04/check.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/check.c.s
+.PHONY : series04/check.c.s
+
 series04/cross.o: series04/cross.c.o
 
 .PHONY : series04/cross.o
@@ -304,6 +331,33 @@ series04/pnorm.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/pnorm.c.s
 .PHONY : series04/pnorm.c.s
 
+series04/sqrt_new.o: series04/sqrt_new.c.o
+
+.PHONY : series04/sqrt_new.o
+
+# target to build an object file
+series04/sqrt_new.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/sqrt_new.c.o
+.PHONY : series04/sqrt_new.c.o
+
+series04/sqrt_new.i: series04/sqrt_new.c.i
+
+.PHONY : series04/sqrt_new.i
+
+# target to preprocess a source file
+series04/sqrt_new.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/sqrt_new.c.i
+.PHONY : series04/sqrt_new.c.i
+
+series04/sqrt_new.s: series04/sqrt_new.c.s
+
+.PHONY : series04/sqrt_new.s
+
+# target to generate assembly for a file
+series04/sqrt_new.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EPROG_SS21.dir/build.make CMakeFiles/EPROG_SS21.dir/series04/sqrt_new.c.s
+.PHONY : series04/sqrt_new.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -316,6 +370,9 @@ help:
 	@echo "... series04/binomial.o"
 	@echo "... series04/binomial.i"
 	@echo "... series04/binomial.s"
+	@echo "... series04/check.o"
+	@echo "... series04/check.i"
+	@echo "... series04/check.s"
 	@echo "... series04/cross.o"
 	@echo "... series04/cross.i"
 	@echo "... series04/cross.s"
@@ -331,6 +388,9 @@ help:
 	@echo "... series04/pnorm.o"
 	@echo "... series04/pnorm.i"
 	@echo "... series04/pnorm.s"
+	@echo "... series04/sqrt_new.o"
+	@echo "... series04/sqrt_new.i"
+	@echo "... series04/sqrt_new.s"
 .PHONY : help
 
 

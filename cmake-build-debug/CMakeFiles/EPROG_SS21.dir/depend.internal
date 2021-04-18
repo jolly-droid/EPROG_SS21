@@ -3,6 +3,8 @@
 
 CMakeFiles/EPROG_SS21.dir/series04/binomial.c.o
  /home/julia/CLionProjects/EPROG_SS21/series04/binomial.c
+CMakeFiles/EPROG_SS21.dir/series04/check.c.o
+ /home/julia/CLionProjects/EPROG_SS21/series04/check.c
 CMakeFiles/EPROG_SS21.dir/series04/cross.c.o
  /home/julia/CLionProjects/EPROG_SS21/series04/cross.c
 CMakeFiles/EPROG_SS21.dir/series04/frobeniusnorm.c.o
@@ -13,3 +15,5 @@ CMakeFiles/EPROG_SS21.dir/series04/pirecursive.c.o
  /home/julia/CLionProjects/EPROG_SS21/series04/pirecursive.c
 CMakeFiles/EPROG_SS21.dir/series04/pnorm.c.o
  /home/julia/CLionProjects/EPROG_SS21/series04/pnorm.c
+CMakeFiles/EPROG_SS21.dir/series04/sqrt_new.c.o
+ /home/julia/CLionProjects/EPROG_SS21/series04/sqrt_new.c
