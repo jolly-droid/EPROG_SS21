@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int kgv( int n, int p);
-int main(int argc, char* argv[]) {
+int main0408(int argc, char* argv[]) {
     int n = 0, p = 0, max;
     printf("please insert a:");
     scanf("%d", &n);

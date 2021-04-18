@@ -4,8 +4,8 @@
 double frobeniusnorm(int n, int m, double x[n][m]);
 
 
-int main0407(int argc, char* argv[]) {
-    int n = 3, m = 3;
+int main04006(int argc, char* argv[]) {
+    int n =2, m = 2;
     double numberArray[n][m];
     printf("please insert the matrix:");
     for (int i = 0; i < n; ++i) {

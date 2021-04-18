@@ -12,7 +12,7 @@
 #include <assert.h>
 
 double P(int n, int type);
-int main0402(int argc, char* argv[]) {
+int main(int argc, char* argv[]) {
     int n = 0, type = 0;
     printf("Please insert n:");
     scanf("%d", &n);
@@ -20,8 +20,8 @@ int main0402(int argc, char* argv[]) {
 
         double res = P(n, 1);
         double res2 = P(n, 2);
-        printf("the non recursive result is: %lf", res);
-        printf("the recursive result is: %lf", res2);
+        printf("the non recursive result is: %lf\n", res);
+        printf("the recursive result is: %lf\n", res2);
         return 0;
 
 }
@@ -30,7 +30,7 @@ double P(int n, int type){
 
     if(type == 1){
         double ret = 0, help = 4, help2, help3;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i <= n; i++) {
             if(i%2 != 0) {
                 help = help * (-1);
             }else{
@@ -39,21 +39,23 @@ double P(int n, int type){
             help2 = 2*i+1;
             help3 = help/help2;
             ret = ret+help3;
-           // printf("i: %d, dividend: %lf, divisior: %lf, result: %lf, part result: %lf\n", i, help, help2, help3,ret);
+
         }
         return ret;
     }
 
     if(type == 2){
         double ret = 0;
-        if(n == 1){
-            ret = (double)1/ (2*n+1);
+        if(n == 0){
+            ret = ret + (double) 4/ (2*n+1);
+
+        }else{
+            ret = ret + (double) 4/ (2*n+1);
+            //printf("%lf\n", ret);
             if(n%2 != 0){
                 ret = ret *(-1);
             }
-
-        }else {
-            return P(n - 1, 2) + P(n - 2, 2);;
+            return ret + P(n-1, 2);
         }
     }
 

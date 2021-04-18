@@ -5,7 +5,7 @@
 
 double sqrtNew(int n, int tau);
 double betrag(double number);
-int main(int argc, char* argv[]) {
+int main0004(int argc, char* argv[]) {
     int x = 0;
     printf("Please insert x: ");
     scanf("%d", &x);
