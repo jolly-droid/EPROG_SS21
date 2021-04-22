@@ -1,3 +1,0 @@
-/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/julia/CLionProjects/EPROG_SS21/cmake-build-debug/CMakeFiles/EPROG_SS21.dir
